@@ -1,0 +1,451 @@
+C:\Users\agarc\Desktop\seminario2023\SeminarioTickets\SeminarioTickets\bin\Debug\SeminarioTickets.exe.config
+C:\Users\agarc\Desktop\seminario2023\SeminarioTickets\SeminarioTickets\bin\Debug\SeminarioTickets.exe
+C:\Users\agarc\Desktop\seminario2023\SeminarioTickets\SeminarioTickets\bin\Debug\SeminarioTickets.pdb
+C:\Users\agarc\Desktop\seminario2023\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.csproj.AssemblyReference.cache
+C:\Users\agarc\Desktop\seminario2023\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.csproj.SuggestedBindingRedirects.cache
+C:\Users\agarc\Desktop\seminario2023\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.Properties.Resources.resources
+C:\Users\agarc\Desktop\seminario2023\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.csproj.GenerateResource.cache
+C:\Users\agarc\Desktop\seminario2023\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.csproj.CoreCompileInputs.cache
+C:\Users\agarc\Desktop\seminario2023\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.exe
+C:\Users\agarc\Desktop\seminario2023\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.pdb
+C:\Users\agarc\Desktop\seminario2023\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmBitacora.resources
+C:\Users\agarc\Desktop\seminario2023\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmClientes.resources
+C:\Users\agarc\Desktop\seminario2023\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmMenu.resources
+C:\Users\agarc\Desktop\seminario2023\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmPuestos.resources
+C:\Users\agarc\Desktop\seminario2023\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmColaboradores.resources
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\SeminarioTickets\SeminarioTickets\bin\Debug\SeminarioTickets.exe.config
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\SeminarioTickets\SeminarioTickets\bin\Debug\SeminarioTickets.exe
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\SeminarioTickets\SeminarioTickets\bin\Debug\SeminarioTickets.pdb
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.csproj.AssemblyReference.cache
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmBitacora.resources
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmClientes.resources
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmColaboradores.resources
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmMenu.resources
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmPuestos.resources
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.Properties.Resources.resources
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.csproj.GenerateResource.cache
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.csproj.CoreCompileInputs.cache
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.exe
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.pdb
+C:\Users\Fernando Mendoza\Documents\UNICAH\Decimo Primer Periodo\Seminario de Software\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\SeminarioTickets.exe.config
+C:\Users\Fernando Mendoza\Documents\UNICAH\Decimo Primer Periodo\Seminario de Software\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\SeminarioTickets.exe
+C:\Users\Fernando Mendoza\Documents\UNICAH\Decimo Primer Periodo\Seminario de Software\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\SeminarioTickets.pdb
+C:\Users\Fernando Mendoza\Documents\UNICAH\Decimo Primer Periodo\Seminario de Software\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.csproj.AssemblyReference.cache
+C:\Users\Fernando Mendoza\Documents\UNICAH\Decimo Primer Periodo\Seminario de Software\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.csproj.SuggestedBindingRedirects.cache
+C:\Users\Fernando Mendoza\Documents\UNICAH\Decimo Primer Periodo\Seminario de Software\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmBitacora.resources
+C:\Users\Fernando Mendoza\Documents\UNICAH\Decimo Primer Periodo\Seminario de Software\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmClientes.resources
+C:\Users\Fernando Mendoza\Documents\UNICAH\Decimo Primer Periodo\Seminario de Software\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmColaboradores.resources
+C:\Users\Fernando Mendoza\Documents\UNICAH\Decimo Primer Periodo\Seminario de Software\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmEventos.resources
+C:\Users\Fernando Mendoza\Documents\UNICAH\Decimo Primer Periodo\Seminario de Software\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmMenu.resources
+C:\Users\Fernando Mendoza\Documents\UNICAH\Decimo Primer Periodo\Seminario de Software\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmPuestos.resources
+C:\Users\Fernando Mendoza\Documents\UNICAH\Decimo Primer Periodo\Seminario de Software\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.Properties.Resources.resources
+C:\Users\Fernando Mendoza\Documents\UNICAH\Decimo Primer Periodo\Seminario de Software\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.csproj.GenerateResource.cache
+C:\Users\Fernando Mendoza\Documents\UNICAH\Decimo Primer Periodo\Seminario de Software\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.csproj.CoreCompileInputs.cache
+C:\Users\Fernando Mendoza\Documents\UNICAH\Decimo Primer Periodo\Seminario de Software\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.exe
+C:\Users\Fernando Mendoza\Documents\UNICAH\Decimo Primer Periodo\Seminario de Software\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.pdb
+C:\Users\jdpen\Desktop\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\SeminarioTickets.exe.config
+C:\Users\jdpen\Desktop\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\SeminarioTickets.exe
+C:\Users\jdpen\Desktop\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\SeminarioTickets.pdb
+C:\Users\jdpen\Desktop\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.csproj.AssemblyReference.cache
+C:\Users\jdpen\Desktop\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.csproj.SuggestedBindingRedirects.cache
+C:\Users\jdpen\Desktop\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmBitacora.resources
+C:\Users\jdpen\Desktop\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmClientes.resources
+C:\Users\jdpen\Desktop\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmColaboradores.resources
+C:\Users\jdpen\Desktop\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmEventos.resources
+C:\Users\jdpen\Desktop\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmMenu.resources
+C:\Users\jdpen\Desktop\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmNiveles.resources
+C:\Users\jdpen\Desktop\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmPuestos.resources
+C:\Users\jdpen\Desktop\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.Properties.Resources.resources
+C:\Users\jdpen\Desktop\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.csproj.GenerateResource.cache
+C:\Users\jdpen\Desktop\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.csproj.CoreCompileInputs.cache
+C:\Users\jdpen\Desktop\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.exe
+C:\Users\jdpen\Desktop\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.pdb
+C:\Users\jdpen\Desktop\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmLugares.resources
+C:\Users\Carlos\Desktop\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\SeminarioTickets.exe.config
+C:\Users\Carlos\Desktop\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\SeminarioTickets.exe
+C:\Users\Carlos\Desktop\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\SeminarioTickets.pdb
+C:\Users\Carlos\Desktop\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.csproj.AssemblyReference.cache
+C:\Users\Carlos\Desktop\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.csproj.SuggestedBindingRedirects.cache
+C:\Users\Carlos\Desktop\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmBitacora.resources
+C:\Users\Carlos\Desktop\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmClientes.resources
+C:\Users\Carlos\Desktop\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmColaboradores.resources
+C:\Users\Carlos\Desktop\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmEventos.resources
+C:\Users\Carlos\Desktop\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmLugares.resources
+C:\Users\Carlos\Desktop\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmMenu.resources
+C:\Users\Carlos\Desktop\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmNiveles.resources
+C:\Users\Carlos\Desktop\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmPuestos.resources
+C:\Users\Carlos\Desktop\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.Properties.Resources.resources
+C:\Users\Carlos\Desktop\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.csproj.GenerateResource.cache
+C:\Users\Carlos\Desktop\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Desktop\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.exe
+C:\Users\Carlos\Desktop\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.pdb
+C:\Users\jdpen\Desktop\Any\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\SeminarioTickets.exe.config
+C:\Users\jdpen\Desktop\Any\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\SeminarioTickets.exe
+C:\Users\jdpen\Desktop\Any\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\SeminarioTickets.pdb
+C:\Users\jdpen\Desktop\Any\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.csproj.AssemblyReference.cache
+C:\Users\jdpen\Desktop\Any\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.csproj.SuggestedBindingRedirects.cache
+C:\Users\jdpen\Desktop\Any\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmBitacora.resources
+C:\Users\jdpen\Desktop\Any\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmClientes.resources
+C:\Users\jdpen\Desktop\Any\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmColaboradores.resources
+C:\Users\jdpen\Desktop\Any\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmEventos.resources
+C:\Users\jdpen\Desktop\Any\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmLugares.resources
+C:\Users\jdpen\Desktop\Any\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmMenu.resources
+C:\Users\jdpen\Desktop\Any\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmNiveles.resources
+C:\Users\jdpen\Desktop\Any\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmPuestos.resources
+C:\Users\jdpen\Desktop\Any\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.Properties.Resources.resources
+C:\Users\jdpen\Desktop\Any\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.csproj.GenerateResource.cache
+C:\Users\jdpen\Desktop\Any\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.csproj.CoreCompileInputs.cache
+C:\Users\jdpen\Desktop\Any\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.exe
+C:\Users\jdpen\Desktop\Any\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.pdb
+C:\Users\jdpen\Desktop\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmUbicaciones.resources
+C:\Users\jdpen\Desktop\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmTipoEventos.resources
+C:\Users\jdpen\Desktop\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.AsigEmp.resources
+C:\Users\jdpen\Desktop\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.frmLogin.resources
+C:\Users\jdpen\Desktop\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.frmReservar.resources
+C:\Users\jdpen\Desktop\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.frmUsuarios.resources
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\SeminarioTickets.exe.config
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\SeminarioTickets.exe
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\SeminarioTickets.pdb
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.csproj.AssemblyReference.cache
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.csproj.SuggestedBindingRedirects.cache
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.AsigEmp.resources
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmBitacora.resources
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmClientes.resources
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmColaboradores.resources
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmEventos.resources
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.frmLogin.resources
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmLugares.resources
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmMenu.resources
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmNiveles.resources
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmPuestos.resources
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.frmReservar.resources
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmTipoEventos.resources
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmUbicaciones.resources
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.frmUsuarios.resources
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.Properties.Resources.resources
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.csproj.GenerateResource.cache
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.csproj.CoreCompileInputs.cache
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.exe
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.pdb
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\SeminarioTickets.exe.config
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\SeminarioTickets.exe
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\SeminarioTickets.pdb
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.csproj.AssemblyReference.cache
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.AsigEmp.resources
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmBitacora.resources
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmClientes.resources
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmColaboradores.resources
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmEventos.resources
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.frmLogin.resources
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmLugares.resources
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmMenu.resources
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmNiveles.resources
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmPuestos.resources
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.frmReservar.resources
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmTipoEventos.resources
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmUbicaciones.resources
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.frmUsuarios.resources
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.Properties.Resources.resources
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.csproj.GenerateResource.cache
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.csproj.CoreCompileInputs.cache
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.exe
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.pdb
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\EnvDTE.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\stdole.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.MSXML.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmHistorial.resources
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\RdlCompile.cache
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\RdlCompile.compiled
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.csproj.CopyComplete
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.reporteFactura.resources
+C:\Users\ferna\OneDrive - MSFT\Tareas Progra\OP\C#\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.DetalleFactura.resources
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\SeminarioTickets.exe.config
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\SeminarioTickets.exe
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\SeminarioTickets.pdb
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\EnvDTE.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\stdole.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.MSXML.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.csproj.AssemblyReference.cache
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.csproj.SuggestedBindingRedirects.cache
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.AsigEmp.resources
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.DetalleFactura.resources
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmBitacora.resources
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmClientes.resources
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmColaboradores.resources
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmEventos.resources
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmHistorial.resources
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.frmLogin.resources
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmLugares.resources
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmMenu.resources
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmNiveles.resources
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmPuestos.resources
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.frmReservar.resources
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmTipoEventos.resources
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmUbicaciones.resources
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.frmUsuarios.resources
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.Properties.Resources.resources
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.reporteFactura.resources
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.csproj.GenerateResource.cache
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.csproj.CoreCompileInputs.cache
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.csproj.CopyComplete
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.exe
+C:\Users\jdpen\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.pdb
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\EnvDTE.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\stdole.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.MSXML.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\EnvDTE.xml
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.DetalleFactura.resources
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmHistorial.resources
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.reporteFactura.resources
+C:\Users\agarc\Desktop\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.csproj.CopyComplete
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\SeminarioTickets.exe.config
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\SeminarioTickets.exe
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\SeminarioTickets.pdb
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\EnvDTE.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\stdole.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\Microsoft.MSXML.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.AsigEmp.resources
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.DetalleFactura.resources
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmBitacora.resources
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmClientes.resources
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmColaboradores.resources
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmEventos.resources
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmHistorial.resources
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.frmLogin.resources
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmLugares.resources
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmMenu.resources
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmNiveles.resources
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmPuestos.resources
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.frmReservar.resources
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmTipoEventos.resources
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.FrmUbicaciones.resources
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.frmUsuarios.resources
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.Properties.Resources.resources
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.reporteFactura.resources
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.csproj.GenerateResource.cache
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.csproj.CopyComplete
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.exe
+C:\Users\PC\Desktop\Uni\ST\-Seminario-Tickets-\SeminarioTickets\SeminarioTickets\obj\Debug\SeminarioTickets.pdb
