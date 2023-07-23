@@ -1,302 +1,60 @@
-USE [SeminarioTickets]
-GO
-/****** Object:  Table [dbo].[Bitacora]    Script Date: 1/7/2023 21:19:18 ******/
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
-CREATE TABLE [dbo].[Bitacora](
-	[IdBit] [int] identity(1,1) NOT NULL,
-	[FchBit] [date] NOT NULL,
-	[HrBit] [time](7) NOT NULL,
-	[EmlUsu] [nvarchar](255) NOT NULL,
-	[TipBit] [int] NOT NULL,
-	[DscBit] [nvarchar](100) NOT NULL,
- CONSTRAINT [PK_Bitacora] PRIMARY KEY CLUSTERED 
-(
-	[IdBit] ASC
-)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
-) ON [PRIMARY]
-GO
-/****** Object:  Table [dbo].[Clientes]    Script Date: 1/7/2023 21:19:18 ******/
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
-CREATE TABLE [dbo].[Clientes](
-	[IdCli] [nvarchar](13) NOT NULL,
-	[NomCli] [nvarchar](70) NOT NULL,
-	[TelCli] [nvarchar](11) NOT NULL,
-	[EmlCli] [nvarchar](255) NOT NULL,
-	[DirCli] [nvarchar](500) NULL,
-	[RtnCli] [nvarchar](15) NULL,
-	[GnrCli] [bit] NOT NULL,
- CONSTRAINT [PK_Clientes] PRIMARY KEY CLUSTERED 
-(
-	[IdCli] ASC
-)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
-) ON [PRIMARY]
-GO
-/****** Object:  Table [dbo].[Colaboradores]    Script Date: 1/7/2023 21:19:18 ******/
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
-CREATE TABLE [dbo].[Colaboradores](
-	[IdEmp] [int] identity(1,1) NOT NULL,
-	[NomEmp] [nvarchar](70) NOT NULL,
-	[FchNacEmp] [date] NOT NULL,
-	[EmlEmp] [nvarchar](255) NOT NULL,
-	[DirEmp] [nvarchar](500) NOT NULL,
-	[TelEmp] [nvarchar](11) NOT NULL,
-	[GnrEmp] [bit] NOT NULL,
-	[IdPst] [int] NOT NULL,
-	[EmlUsu] [nvarchar](255) NULL,
- CONSTRAINT [PK_Colaboradores] PRIMARY KEY CLUSTERED 
-(
-	[IdEmp] ASC
-)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
-) ON [PRIMARY]
-GO
-/****** Object:  Table [dbo].[Eventos]    Script Date: 1/7/2023 21:19:18 ******/
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
-CREATE TABLE [dbo].[Eventos](
-	[IdEvt] [int] identity(1,1) NOT NULL,
-	[NomEvt] [nvarchar](70) NOT NULL,
-	[IdEvn] [int] NOT NULL,
-	[FchEvt] [date] NOT NULL,
-	[HrEvt] [time](7) NOT NULL,
-	[IdLug] [int] NOT NULL,
-	[CapEvt] [int] NOT NULL,
-	[ResEvt] [int] NOT NULL,
- CONSTRAINT [PK_Eventos] PRIMARY KEY CLUSTERED 
-(
-	[IdEvt] ASC
-)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
-) ON [PRIMARY]
-GO
-/****** Object:  Table [dbo].[FacturasDetalle]    Script Date: 1/7/2023 21:19:18 ******/
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
-CREATE TABLE [dbo].[FacturasDetalle](
-	[NroFact] [int] NOT NULL,
-	[IdTct] [int] NOT NULL,
-	[CantTct] [int] NOT NULL,
- CONSTRAINT [PK_FacturasDetalle] PRIMARY KEY CLUSTERED 
-(
-	[NroFact] ASC,
-	[IdTct] ASC
-)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
-) ON [PRIMARY]
-GO
-/****** Object:  Table [dbo].[FacturasEncabezado]    Script Date: 1/7/2023 21:19:18 ******/
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
-CREATE TABLE [dbo].[FacturasEncabezado](
-	[NroFact] [int] identity(1,1) NOT NULL,
-	[IdCli] [nvarchar](13) NOT NULL,
-	[IdEmp] [int] NOT NULL,
-	[FchEmp] [date] NOT NULL,
- CONSTRAINT [PK_FacturasEncabezado] PRIMARY KEY CLUSTERED 
-(
-	[NroFact] ASC
-)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
-) ON [PRIMARY]
-GO
-/****** Object:  Table [dbo].[Lugares]    Script Date: 1/7/2023 21:19:18 ******/
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
-CREATE TABLE [dbo].[Lugares](
-	[IdLug] [int] identity(1,1) NOT NULL,
-	[NomLug] [nvarchar](40) NOT NULL,
-	[CapLug] [int] NOT NULL,
- CONSTRAINT [PK_Lugares] PRIMARY KEY CLUSTERED 
-(
-	[IdLug] ASC
-)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
-) ON [PRIMARY]
-GO
-/****** Object:  Table [dbo].[Niveles]    Script Date: 1/7/2023 21:19:18 ******/
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
-CREATE TABLE [dbo].[Niveles](
-	[IdNvl] [int] identity(1,1) NOT NULL,
-	[NomNvl] [nvarchar](20) NOT NULL,
- CONSTRAINT [PK_Niveles] PRIMARY KEY CLUSTERED 
-(
-	[IdNvl] ASC
-)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
-) ON [PRIMARY]
-GO
-/****** Object:  Table [dbo].[Puestos]    Script Date: 1/7/2023 21:19:18 ******/
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
-CREATE TABLE [dbo].[Puestos](
-	[IdPst] [int] identity(1,1) NOT NULL,
-	[NomPst] [nvarchar](20) NOT NULL,
- CONSTRAINT [PK_Puestos] PRIMARY KEY CLUSTERED 
-(
-	[IdPst] ASC
-)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
-) ON [PRIMARY]
-GO
-/****** Object:  Table [dbo].[Tickets]    Script Date: 1/7/2023 21:19:18 ******/
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
-CREATE TABLE [dbo].[Tickets](
-	[IdTct] [int] identity(1,1) NOT NULL,
-	[FchTct] [date] NOT NULL,
-	[IdEvt] [int] NOT NULL,
-	[IdCli] [nvarchar](13) NOT NULL,
-	[IdUbc] [int] NOT NULL,
-	[NumUbc] [int] NOT NULL,
-	[PrcTct] [int] NOT NULL,
- CONSTRAINT [PK_Tickets] PRIMARY KEY CLUSTERED 
-(
-	[IdTct] ASC
-)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
-) ON [PRIMARY]
-GO
-/****** Object:  Table [dbo].[TipoEventos]    Script Date: 1/7/2023 21:19:18 ******/
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
-CREATE TABLE [dbo].[TipoEventos](
-	[IdEvn] [int] identity(1,1) NOT NULL,
-	[NomEvn] [nvarchar](30) NOT NULL,
- CONSTRAINT [PK_TipoEventos] PRIMARY KEY CLUSTERED 
-(
-	[IdEvn] ASC
-)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
-) ON [PRIMARY]
-GO
-/****** Object:  Table [dbo].[Ubicaciones]    Script Date: 1/7/2023 21:19:18 ******/
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
-CREATE TABLE [dbo].[Ubicaciones](
-	[IdUbc] [int] identity(1,1) NOT NULL,
-	[ZonaUbc] [nvarchar](20) NOT NULL,
- CONSTRAINT [PK_Ubicaciones] PRIMARY KEY CLUSTERED 
-(
-	[IdUbc] ASC
-)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
-) ON [PRIMARY]
-GO
-/****** Object:  Table [dbo].[Usuarios]    Script Date: 1/7/2023 21:19:18 ******/
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
-CREATE TABLE [dbo].[Usuarios](
-	[EmlUsu] [nvarchar](255) NOT NULL,
-	[ConUsu] [nvarchar](255) NOT NULL,
-	[CodEnvUsu] [int] NULL,
-	[IdNvl] [int] NOT NULL,
-	[EstUsu] [bit] NOT NULL,
- CONSTRAINT [PK_Usuarios] PRIMARY KEY CLUSTERED 
-(
-	[EmlUsu] ASC
-)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
-) ON [PRIMARY]
-GO
-ALTER TABLE [dbo].[Bitacora]  WITH CHECK ADD  CONSTRAINT [FK_Bitacora_Usuarios] FOREIGN KEY([EmlUsu])
-REFERENCES [dbo].[Usuarios] ([EmlUsu])
-GO
-ALTER TABLE [dbo].[Bitacora] CHECK CONSTRAINT [FK_Bitacora_Usuarios]
-GO
-ALTER TABLE [dbo].[Colaboradores]  WITH CHECK ADD FOREIGN KEY([EmlUsu])
-REFERENCES [dbo].[Usuarios] ([EmlUsu])
-GO
-ALTER TABLE [dbo].[Colaboradores]  WITH CHECK ADD  CONSTRAINT [FK_Colaboradores_Puestos] FOREIGN KEY([IdPst])
-REFERENCES [dbo].[Puestos] ([IdPst])
-GO
-ALTER TABLE [dbo].[Colaboradores] CHECK CONSTRAINT [FK_Colaboradores_Puestos]
-GO
-ALTER TABLE [dbo].[Eventos]  WITH CHECK ADD  CONSTRAINT [FK_Eventos_Lugares] FOREIGN KEY([IdLug])
-REFERENCES [dbo].[Lugares] ([IdLug])
-GO
-ALTER TABLE [dbo].[Eventos] CHECK CONSTRAINT [FK_Eventos_Lugares]
-GO
-ALTER TABLE [dbo].[Eventos]  WITH CHECK ADD  CONSTRAINT [FK_Eventos_TipoEventos] FOREIGN KEY([IdEvn])
-REFERENCES [dbo].[TipoEventos] ([IdEvn])
-GO
-ALTER TABLE [dbo].[Eventos] CHECK CONSTRAINT [FK_Eventos_TipoEventos]
-GO
-ALTER TABLE [dbo].[FacturasDetalle]  WITH CHECK ADD  CONSTRAINT [FK_FacturasDetalle_FacturasEncabezado] FOREIGN KEY([NroFact])
-REFERENCES [dbo].[FacturasEncabezado] ([NroFact])
-GO
-ALTER TABLE [dbo].[FacturasDetalle] CHECK CONSTRAINT [FK_FacturasDetalle_FacturasEncabezado]
-GO
-ALTER TABLE [dbo].[FacturasDetalle]  WITH CHECK ADD  CONSTRAINT [FK_FacturasDetalle_Tickets] FOREIGN KEY([IdTct])
-REFERENCES [dbo].[Tickets] ([IdTct])
-GO
-ALTER TABLE [dbo].[FacturasDetalle] CHECK CONSTRAINT [FK_FacturasDetalle_Tickets]
-GO
-ALTER TABLE [dbo].[FacturasEncabezado]  WITH CHECK ADD  CONSTRAINT [FK_FacturasEncabezado_Clientes] FOREIGN KEY([IdCli])
-REFERENCES [dbo].[Clientes] ([IdCli])
-GO
-ALTER TABLE [dbo].[FacturasEncabezado] CHECK CONSTRAINT [FK_FacturasEncabezado_Clientes]
-GO
-ALTER TABLE [dbo].[FacturasEncabezado]  WITH CHECK ADD  CONSTRAINT [FK_FacturasEncabezado_Colaboradores] FOREIGN KEY([IdEmp])
-REFERENCES [dbo].[Colaboradores] ([IdEmp])
-GO
-ALTER TABLE [dbo].[FacturasEncabezado] CHECK CONSTRAINT [FK_FacturasEncabezado_Colaboradores]
-GO
-ALTER TABLE [dbo].[Tickets]  WITH CHECK ADD  CONSTRAINT [FK_Tickets_Clientes] FOREIGN KEY([IdCli])
-REFERENCES [dbo].[Clientes] ([IdCli])
-GO
-ALTER TABLE [dbo].[Tickets] CHECK CONSTRAINT [FK_Tickets_Clientes]
-GO
-ALTER TABLE [dbo].[Tickets]  WITH CHECK ADD  CONSTRAINT [FK_Tickets_Eventos] FOREIGN KEY([IdEvt])
-REFERENCES [dbo].[Eventos] ([IdEvt])
-GO
-ALTER TABLE [dbo].[Tickets] CHECK CONSTRAINT [FK_Tickets_Eventos]
-GO
-ALTER TABLE [dbo].[Tickets]  WITH CHECK ADD  CONSTRAINT [FK_Tickets_Ubicaciones] FOREIGN KEY([IdUbc])
-REFERENCES [dbo].[Ubicaciones] ([IdUbc])
-GO
-ALTER TABLE [dbo].[Tickets] CHECK CONSTRAINT [FK_Tickets_Ubicaciones]
-GO
-ALTER TABLE [dbo].[Usuarios]  WITH CHECK ADD  CONSTRAINT [FK_Usuarios_Niveles] FOREIGN KEY([IdNvl])
-REFERENCES [dbo].[Niveles] ([IdNvl])
-GO
-ALTER TABLE [dbo].[Usuarios] CHECK CONSTRAINT [FK_Usuarios_Niveles]
-GO
-/****** Object:  StoredProcedure [dbo].[InsercionBitacora]    Script Date: 1/7/2023 21:19:18 ******/
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
+﻿--
+-- Script was generated by Devart dbForge Studio 2022 for SQL Server, Version 6.4.124.0
+-- Product home page: http://www.devart.com/dbforge/sql/studio
+-- Script date 7/22/2023 2:01:41 PM
+-- Server version: 16.00.1050
+--
+
+
+SET DATEFORMAT ymd
+SET ARITHABORT, ANSI_PADDING, ANSI_WARNINGS, CONCAT_NULL_YIELDS_NULL, QUOTED_IDENTIFIER, ANSI_NULLS, NOCOUNT ON
+SET NUMERIC_ROUNDABORT, IMPLICIT_TRANSACTIONS, XACT_ABORT OFF
+GO
+
+USE SeminarioTickets
+GO
+
+IF DB_NAME() <> N'SeminarioTickets' SET NOEXEC ON
+GO
+
+--
+-- Create table [dbo].[Usuarios]
+--
+PRINT (N'Create table [dbo].[Usuarios]')
+GO
+CREATE TABLE dbo.Usuarios (
+  EmlUsu nvarchar(255) NOT NULL,
+  ConUsu nvarchar(255) NOT NULL,
+  CodEnvUsu int NULL,
+  IdNvl int NOT NULL,
+  EstUsu bit NOT NULL,
+  CONSTRAINT PK_Usuarios PRIMARY KEY CLUSTERED (EmlUsu)
+)
+ON [PRIMARY]
+GO
+
+SET QUOTED_IDENTIFIER, ANSI_NULLS ON
+GO
+
+--
+-- Create or alter procedure [dbo].[InsercionesUsuarios]
+--
+GO
+PRINT (N'Create or alter procedure [dbo].[InsercionesUsuarios]')
 GO
 -- =============================================
 -- Author:		<Author,,Name>
 -- Create date: <Create Date,,>
 -- Description:	<Description,,>
 -- =============================================
-CREATE PROCEDURE [dbo].[InsercionBitacora]
+CREATE OR ALTER PROCEDURE dbo.InsercionesUsuarios 
 	-- Add the parameters for the stored procedure here
-	@FchBit date,
-	@HrBit time (7),
-	@EmlBit nvarchar(255),
-	@TipBit nvarchar(10),
-	@DscBit nvarchar(100)
+@EmlUsu nvarchar(255),
+@ConUsu nvarchar(255),
+@CodEnvUsu int,
+@IdNvl int, 
+@EstUsu bit
+
 AS
 BEGIN
 	-- SET NOCOUNT ON added to prevent extra result sets from
@@ -304,57 +62,44 @@ BEGIN
 	SET NOCOUNT ON;
 
     -- Insert statements for procedure here
-	Insert into Bitacora values (@FchBit, @HrBit, @EmlBit, @TipBit, @DscBit)
+	Insert into Usuarios values (@EmlUsu, @ConUsu, @CodEnvUsu, @IdNvl, @EstUsu)
 END
 GO
-/****** Object:  StoredProcedure [dbo].[InsercionClientes]    Script Date: 1/7/2023 21:19:18 ******/
-SET ANSI_NULLS ON
+
+--
+-- Create or alter procedure [dbo].[EliminarUsuarios]
+--
 GO
-SET QUOTED_IDENTIFIER ON
+PRINT (N'Create or alter procedure [dbo].[EliminarUsuarios]')
 GO
--- =============================================
--- Author:		<Author,,Name>
--- Create date: <Create Date,,>
--- Description:	<Description,,>
--- =============================================
-CREATE PROCEDURE [dbo].[InsercionClientes] 
-	@IdCli nvarchar (13),
-	@NomCli nvarchar(70),
-	@TelCli nvarchar(11),
-	@EmlCli nvarchar(255),
-	@DirCli nvarchar(500),
-	@RtnCli nvarchar(15),
-	@GnrCli bit
+CREATE OR ALTER PROCEDURE dbo.EliminarUsuarios 	
+@EmlUsu nvarchar(255)
 AS
+
 BEGIN
 	-- SET NOCOUNT ON added to prevent extra result sets from
 	-- interfering with SELECT statements.
 	SET NOCOUNT ON;
 
     -- Insert statements for procedure here
-	Insert into Clientes values (@IdCli, @NomCli, @TelCli, @EmlCli,@DirCli, @RtnCli, @GnrCli)
+	delete from Usuarios where EmlUsu = @EmlUsu
 END
+
 GO
-/****** Object:  StoredProcedure [dbo].[InsercionColaboradores]    Script Date: 1/7/2023 21:19:18 ******/
-SET ANSI_NULLS ON
+
+--
+-- Create or alter procedure [dbo].[ActualizarUsuarios]
+--
 GO
-SET QUOTED_IDENTIFIER ON
+PRINT (N'Create or alter procedure [dbo].[ActualizarUsuarios]')
 GO
--- =============================================
--- Author:		<Author,,Name>
--- Create date: <Create Date,,>
--- Description:	<Description,,>
--- =============================================
-CREATE PROCEDURE [dbo].[InsercionColaboradores]
+CREATE OR ALTER PROCEDURE dbo.ActualizarUsuarios 
 	-- Add the parameters for the stored procedure here
-	@NomEmp nvarchar(70),
-	@FchNacEmp date,
-	@EmlEmp nvarchar(255),
-	@DirEmp nvarchar(500),
-	@TelEmp nvarchar(11),
-	@GnrEmp bit,
-	@IdPst int,
-	@EmlUsu nvarchar(255)
+@EmlUsu nvarchar(255),
+@ConUsu nvarchar(255),
+@IdNvl int,
+@Eml nvarchar(255)
+
 AS
 BEGIN
 	-- SET NOCOUNT ON added to prevent extra result sets from
@@ -362,22 +107,42 @@ BEGIN
 	SET NOCOUNT ON;
 
     -- Insert statements for procedure here
-	Insert into Colaboradores values (@NomEmp, @FchNacEmp, @EmlEmp, @DirEmp, @TelEmp, @GnrEmp, @IdPst, @EmlUsu)
+	update Usuarios set EmlUsu=@EmlUsu, ConUsu= @ConUsu, IdNvl= @IdNvl
+	where EmlUsu = @Eml
 END
+
 GO
-/****** Object:  StoredProcedure [dbo].[InsercionesPuestos]    Script Date: 1/7/2023 21:19:18 ******/
-SET ANSI_NULLS ON
+
+--
+-- Create table [dbo].[Ubicaciones]
+--
+PRINT (N'Create table [dbo].[Ubicaciones]')
 GO
-SET QUOTED_IDENTIFIER ON
+CREATE TABLE dbo.Ubicaciones (
+  IdUbc int IDENTITY,
+  ZonaUbc nvarchar(20) NOT NULL,
+  PreTct real NULL,
+  CONSTRAINT PK_Ubicaciones PRIMARY KEY CLUSTERED (IdUbc)
+)
+ON [PRIMARY]
 GO
+
+--
+-- Create or alter procedure [dbo].[InsercionUbicaciones]
+--
+GO
+PRINT (N'Create or alter procedure [dbo].[InsercionUbicaciones]')
+GO
+
 -- =============================================
 -- Author:		<Author,,Name>
 -- Create date: <Create Date,,>
 -- Description:	<Description,,>
 -- =============================================
-CREATE PROCEDURE [dbo].[InsercionesPuestos]
+CREATE OR ALTER PROCEDURE dbo.InsercionUbicaciones
 	-- Add the parameters for the stored procedure here
-@NomPst nvarchar (20)
+	@ZonaUbc nvarchar(20),
+  @PreTct real
 AS
 BEGIN
 	-- SET NOCOUNT ON added to prevent extra result sets from
@@ -385,20 +150,201 @@ BEGIN
 	SET NOCOUNT ON;
 
     -- Insert statements for procedure here
-	Insert into Puestos values (@NomPst)
+	INSERT INTO Ubicaciones VALUES (@ZonaUbc, @PreTct)
+END
+
+GO
+
+--
+-- Create or alter procedure [dbo].[EliminarUbicacion]
+--
+GO
+PRINT (N'Create or alter procedure [dbo].[EliminarUbicacion]')
+GO
+CREATE OR ALTER PROCEDURE dbo.EliminarUbicacion 
+	-- Add the parameters for the stored procedure here
+	@IdUbc int
+AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;
+
+    -- Insert statements for procedure here
+	DELETE FROM Ubicaciones 
+	WHERE IdUbc = @IdUbc
 END
 GO
-/****** Object:  StoredProcedure [dbo].[InsercionesTickets]    Script Date: 1/7/2023 21:19:18 ******/
-SET ANSI_NULLS ON
+
+--
+-- Create or alter procedure [dbo].[ActualizarUbicacion2]
+--
 GO
-SET QUOTED_IDENTIFIER ON
+PRINT (N'Create or alter procedure [dbo].[ActualizarUbicacion2]')
+GO
+CREATE OR ALTER PROCEDURE dbo.ActualizarUbicacion2 
+	-- Add the parameters for the stored procedure here
+	@IdUbc int,
+	@ZonaUbc nvarchar(20),
+  @PreTct real
+AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;
+
+    -- Insert statements for procedure here
+	UPDATE Ubicaciones SET ZonaUbc = @ZonaUbc, PreTct = @PreTct
+	WHERE IdUbc = @IdUbc
+END
+GO
+
+--
+-- Create or alter procedure [dbo].[ActualizarUbicacion]
+--
+GO
+PRINT (N'Create or alter procedure [dbo].[ActualizarUbicacion]')
+GO
+CREATE OR ALTER PROCEDURE dbo.ActualizarUbicacion 
+	-- Add the parameters for the stored procedure here
+	@IdUbc int,
+	@ZonaUbc nvarchar(20)
+AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;
+
+    -- Insert statements for procedure here
+	UPDATE Ubicaciones SET ZonaUbc = @ZonaUbc
+	WHERE IdUbc = @IdUbc
+END
+GO
+
+--
+-- Create table [dbo].[TipoEventos]
+--
+PRINT (N'Create table [dbo].[TipoEventos]')
+GO
+CREATE TABLE dbo.TipoEventos (
+  IdEvn int IDENTITY,
+  NomEvn nvarchar(30) NOT NULL,
+  CONSTRAINT PK_TipoEventos PRIMARY KEY CLUSTERED (IdEvn)
+)
+ON [PRIMARY]
+GO
+
+--
+-- Create or alter procedure [dbo].[InsercionesTipoEventos]
+--
+GO
+PRINT (N'Create or alter procedure [dbo].[InsercionesTipoEventos]')
 GO
 -- =============================================
 -- Author:		<Author,,Name>
 -- Create date: <Create Date,,>
 -- Description:	<Description,,>
 -- =============================================
-CREATE PROCEDURE [dbo].[InsercionesTickets]
+CREATE OR ALTER PROCEDURE dbo.InsercionesTipoEventos
+	-- Add the parameters for the stored procedure here
+@NomEvn nvarchar(30)
+
+AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;
+
+    -- Insert statements for procedure here
+	Insert into TipoEventos values (@NomEvn)
+END
+GO
+
+--
+-- Create or alter procedure [dbo].[EliminarTipoEventos]
+--
+GO
+PRINT (N'Create or alter procedure [dbo].[EliminarTipoEventos]')
+GO
+CREATE OR ALTER PROCEDURE dbo.EliminarTipoEventos
+	@IdEvn int
+AS
+BEGIN
+	DELETE FROM TipoEventos
+	WHERE IdEvn = @IdEvn
+END
+GO
+
+--
+-- Create or alter procedure [dbo].[ActualizacionTipoEventos]
+--
+GO
+PRINT (N'Create or alter procedure [dbo].[ActualizacionTipoEventos]')
+GO
+CREATE OR ALTER PROCEDURE dbo.ActualizacionTipoEventos
+	@IdEvn int,
+	@NomEvn nvarchar(30)
+AS
+BEGIN
+	SET NOCOUNT ON;
+	UPDATE TipoEventos
+	SET NomEvn = @NomEvn
+	WHERE IdEvn = @IdEvn
+END
+GO
+
+--
+-- Create table [dbo].[Tickets]
+--
+PRINT (N'Create table [dbo].[Tickets]')
+GO
+CREATE TABLE dbo.Tickets (
+  IdTct int IDENTITY,
+  IdEvt int NULL,
+  IdCli nvarchar(13) NULL,
+  IdUbc int NULL,
+  NumUbc int NULL,
+  CONSTRAINT PK_Tickets PRIMARY KEY CLUSTERED (IdTct)
+)
+ON [PRIMARY]
+GO
+
+--
+-- Create or alter procedure [dbo].[InsercionesTickets2]
+--
+GO
+PRINT (N'Create or alter procedure [dbo].[InsercionesTickets2]')
+GO
+CREATE OR ALTER PROCEDURE dbo.InsercionesTickets2
+	-- Add the parameters for the stored procedure here
+@IdEvt int,
+@IdCli nvarchar(13),
+@IdUbc int,
+@NumUbc int
+
+AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;
+
+    -- Insert statements for procedure here
+	Insert into Tickets values( @IdEvt, @IdCli, @IdUbc, @NumUbc)
+END
+GO
+
+--
+-- Create or alter procedure [dbo].[InsercionesTickets]
+--
+GO
+PRINT (N'Create or alter procedure [dbo].[InsercionesTickets]')
+GO
+-- =============================================
+-- Author:		<Author,,Name>
+-- Create date: <Create Date,,>
+-- Description:	<Description,,>
+-- =============================================
+CREATE OR ALTER PROCEDURE dbo.InsercionesTickets
 	-- Add the parameters for the stored procedure here
 @FchTct date,
 @IdEvt int,
@@ -417,20 +363,34 @@ BEGIN
 	Insert into Tickets values(@FchTct, @IdEvt, @IdCli, @IdUbc, @NumUbc, @PrcTct)
 END
 GO
-/****** Object:  StoredProcedure [dbo].[InsercionesTipoEventos]    Script Date: 1/7/2023 21:19:18 ******/
-SET ANSI_NULLS ON
+
+--
+-- Create table [dbo].[Puestos]
+--
+PRINT (N'Create table [dbo].[Puestos]')
 GO
-SET QUOTED_IDENTIFIER ON
+CREATE TABLE dbo.Puestos (
+  IdPst int IDENTITY,
+  NomPst nvarchar(20) NOT NULL,
+  CONSTRAINT PK_Puestos PRIMARY KEY CLUSTERED (IdPst)
+)
+ON [PRIMARY]
+GO
+
+--
+-- Create or alter procedure [dbo].[InsercionesPuestos]
+--
+GO
+PRINT (N'Create or alter procedure [dbo].[InsercionesPuestos]')
 GO
 -- =============================================
 -- Author:		<Author,,Name>
 -- Create date: <Create Date,,>
 -- Description:	<Description,,>
 -- =============================================
-CREATE PROCEDURE [dbo].[InsercionesTipoEventos]
+CREATE OR ALTER PROCEDURE dbo.InsercionesPuestos
 	-- Add the parameters for the stored procedure here
-@NomEvn nvarchar(30)
-
+@NomPst nvarchar (20)
 AS
 BEGIN
 	-- SET NOCOUNT ON added to prevent extra result sets from
@@ -438,27 +398,69 @@ BEGIN
 	SET NOCOUNT ON;
 
     -- Insert statements for procedure here
-	Insert into TipoEventos values (@NomEvn)
+	Insert into Puestos values (@NomPst)
 END
 GO
-/****** Object:  StoredProcedure [dbo].[InsercionesUsuarios]    Script Date: 1/7/2023 21:19:18 ******/
-SET ANSI_NULLS ON
+
+--
+-- Create or alter procedure [dbo].[EliminarPuestos]
+--
 GO
-SET QUOTED_IDENTIFIER ON
+PRINT (N'Create or alter procedure [dbo].[EliminarPuestos]')
+GO
+CREATE OR ALTER PROCEDURE dbo.EliminarPuestos
+    @IdPst INT
+AS
+BEGIN
+    DELETE FROM Puestos
+    WHERE @IdPst = @IdPst
+END
+GO
+
+--
+-- Create or alter procedure [dbo].[ActualizarPuestos]
+--
+GO
+PRINT (N'Create or alter procedure [dbo].[ActualizarPuestos]')
+GO
+CREATE OR ALTER PROCEDURE dbo.ActualizarPuestos
+    @IdPst INT,
+    @NomPst NVARCHAR(20)
+AS
+BEGIN
+    UPDATE Puestos
+    SET NomPst = @NomPst
+    WHERE IdPst = @IdPst
+END
+GO
+
+--
+-- Create table [dbo].[Niveles]
+--
+PRINT (N'Create table [dbo].[Niveles]')
+GO
+CREATE TABLE dbo.Niveles (
+  IdNvl int IDENTITY,
+  NomNvl nvarchar(20) NOT NULL,
+  CONSTRAINT PK_Niveles PRIMARY KEY CLUSTERED (IdNvl)
+)
+ON [PRIMARY]
+GO
+
+--
+-- Create or alter procedure [dbo].[InsercionNiveles]
+--
+GO
+PRINT (N'Create or alter procedure [dbo].[InsercionNiveles]')
 GO
 -- =============================================
 -- Author:		<Author,,Name>
 -- Create date: <Create Date,,>
 -- Description:	<Description,,>
 -- =============================================
-CREATE PROCEDURE [dbo].[InsercionesUsuarios] 
+CREATE OR ALTER PROCEDURE dbo.InsercionNiveles 
 	-- Add the parameters for the stored procedure here
-@EmlUsu nvarchar(255),
-@ConUsu nvarchar(255),
-@CodEnvUsu int,
-@IdNvl int, 
-@EstUsu bit
-
+	@NomNvl nvarchar (20)
 AS
 BEGIN
 	-- SET NOCOUNT ON added to prevent extra result sets from
@@ -466,20 +468,214 @@ BEGIN
 	SET NOCOUNT ON;
 
     -- Insert statements for procedure here
-	Insert into Usuarios values (@EmlUsu, @ConUsu, @CodEnvUsu, @IdNvl, @EstUsu)
+Insert into Niveles values(@NomNvl)
 END
 GO
-/****** Object:  StoredProcedure [dbo].[InsercionEventos]    Script Date: 1/7/2023 21:19:18 ******/
-SET ANSI_NULLS ON
+
+--
+-- Create or alter procedure [dbo].[EliminarNiveles]
+--
 GO
-SET QUOTED_IDENTIFIER ON
+PRINT (N'Create or alter procedure [dbo].[EliminarNiveles]')
+GO
+--Eliminar JEF
+CREATE OR ALTER PROCEDURE dbo.EliminarNiveles
+    @IdNvl INT
+AS
+BEGIN
+    DELETE FROM Niveles
+    WHERE IdNvl = @IdNvl
+END
+GO
+
+--
+-- Create or alter procedure [dbo].[ActualizarNiveles]
+--
+GO
+PRINT (N'Create or alter procedure [dbo].[ActualizarNiveles]')
+GO
+--Actualizar JEF
+CREATE OR ALTER PROCEDURE dbo.ActualizarNiveles
+    @IdNvl INT,
+    @NomNvl VARCHAR(20)
+AS
+BEGIN
+    UPDATE Niveles
+    SET NomNvl = @NomNvl
+    WHERE IdNvl = @IdNvl
+END
+GO
+
+--
+-- Create table [dbo].[Lugares]
+--
+PRINT (N'Create table [dbo].[Lugares]')
+GO
+CREATE TABLE dbo.Lugares (
+  IdLug int IDENTITY,
+  NomLug nvarchar(40) NOT NULL,
+  CapLug int NOT NULL,
+  CONSTRAINT PK_Lugares PRIMARY KEY CLUSTERED (IdLug)
+)
+ON [PRIMARY]
+GO
+
+--
+-- Create or alter procedure [dbo].[InsercionLugares]
+--
+GO
+PRINT (N'Create or alter procedure [dbo].[InsercionLugares]')
 GO
 -- =============================================
 -- Author:		<Author,,Name>
 -- Create date: <Create Date,,>
 -- Description:	<Description,,>
 -- =============================================
-CREATE PROCEDURE [dbo].[InsercionEventos]
+CREATE OR ALTER PROCEDURE dbo.InsercionLugares 
+	-- Add the parameters for the stored procedure here
+	@NomLug nvarchar(40),
+	@CapLug int
+AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;
+
+    -- Insert statements for procedure here
+	insert into Lugares values (@NomLug, @CapLug)
+END
+GO
+
+--
+-- Create or alter procedure [dbo].[EliminarLugares]
+--
+GO
+PRINT (N'Create or alter procedure [dbo].[EliminarLugares]')
+GO
+CREATE OR ALTER PROCEDURE dbo.EliminarLugares
+    @IdLug INT
+AS
+BEGIN
+    DELETE FROM Lugares
+    WHERE IdLug = @IdLug
+END
+GO
+
+--
+-- Create or alter procedure [dbo].[ActualizarLugares]
+--
+GO
+PRINT (N'Create or alter procedure [dbo].[ActualizarLugares]')
+GO
+CREATE OR ALTER PROCEDURE dbo.ActualizarLugares
+    @IdLug INT,
+    @NomLug VARCHAR(40),
+	@CapLug INT
+AS
+BEGIN
+    UPDATE Lugares
+    SET NomLug = @NomLug, CapLug = @CapLug
+    WHERE IdLug = @IdLug
+END
+GO
+
+--
+-- Create table [dbo].[FacturasEncabezado]
+--
+PRINT (N'Create table [dbo].[FacturasEncabezado]')
+GO
+CREATE TABLE dbo.FacturasEncabezado (
+  NroFact int IDENTITY,
+  IdCli nvarchar(13) NOT NULL,
+  IdEmp int NOT NULL,
+  FchEmp date NOT NULL,
+  CONSTRAINT PK_FacturasEncabezado PRIMARY KEY CLUSTERED (NroFact)
+)
+ON [PRIMARY]
+GO
+
+--
+-- Create or alter procedure [dbo].[InsercionFacturaEncabezado2]
+--
+GO
+PRINT (N'Create or alter procedure [dbo].[InsercionFacturaEncabezado2]')
+GO
+
+CREATE OR ALTER PROCEDURE dbo.InsercionFacturaEncabezado2
+	-- Add the parameters for the stored procedure here
+	@IdCli nvarchar(13),
+	@IdEmp int, 
+	@FchEmp date
+AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;
+
+    -- Insert statements for procedure here
+	insert into FacturasEncabezado values (@IdCli, @IdEmp, @FchEmp)
+END
+
+GO
+
+--
+-- Create or alter procedure [dbo].[InsercionFacturaEncabezado]
+--
+GO
+PRINT (N'Create or alter procedure [dbo].[InsercionFacturaEncabezado]')
+GO
+-- =============================================
+-- Author:		<Author,,Name>
+-- Create date: <Create Date,,>
+-- Description:	<Description,,>
+-- =============================================
+CREATE OR ALTER PROCEDURE dbo.InsercionFacturaEncabezado
+	-- Add the parameters for the stored procedure here
+	@IdCli nvarchar(13),
+	@IdEmp int, 
+	@FchEmp date
+AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;
+
+    -- Insert statements for procedure here
+	insert into FacturasEncabezado values (@IdCli, @IdEmp, @FchEmp)
+END
+GO
+
+--
+-- Create table [dbo].[Eventos]
+--
+PRINT (N'Create table [dbo].[Eventos]')
+GO
+CREATE TABLE dbo.Eventos (
+  IdEvt int IDENTITY,
+  NomEvt nvarchar(70) NOT NULL,
+  IdEvn int NOT NULL,
+  FchEvt date NOT NULL,
+  HrEvt time NOT NULL,
+  IdLug int NOT NULL,
+  CapEvt int NOT NULL,
+  ResEvt int NOT NULL,
+  CONSTRAINT PK_Eventos PRIMARY KEY CLUSTERED (IdEvt)
+)
+ON [PRIMARY]
+GO
+
+--
+-- Create or alter procedure [dbo].[InsercionEventos]
+--
+GO
+PRINT (N'Create or alter procedure [dbo].[InsercionEventos]')
+GO
+-- =============================================
+-- Author:		<Author,,Name>
+-- Create date: <Create Date,,>
+-- Description:	<Description,,>
+-- =============================================
+CREATE OR ALTER PROCEDURE dbo.InsercionEventos
 	-- Add the parameters for the stored procedure here
 	@NomEvt nvarchar(70),
 	@IdEvn int,
@@ -500,17 +696,387 @@ BEGIN
 	Insert into Eventos values (@NomEvt, @IdEvn, @FchEvt, @HrEvt, @IdLug, @CapEvt, @ResEvt)
 END
 GO
-/****** Object:  StoredProcedure [dbo].[InsercionFacturaDetalle]    Script Date: 1/7/2023 21:19:18 ******/
-SET ANSI_NULLS ON
+
+--
+-- Create or alter procedure [dbo].[EliminarEvento]
+--
 GO
-SET QUOTED_IDENTIFIER ON
+PRINT (N'Create or alter procedure [dbo].[EliminarEvento]')
+GO
+CREATE OR ALTER PROCEDURE dbo.EliminarEvento
+    @idEvt INT
+AS
+BEGIN
+    DELETE FROM Eventos
+    WHERE idEvt = @idEvt
+END
+GO
+
+--
+-- Create or alter procedure [dbo].[ActualizarEvento]
+--
+GO
+PRINT (N'Create or alter procedure [dbo].[ActualizarEvento]')
+GO
+CREATE OR ALTER PROCEDURE dbo.ActualizarEvento
+    @idEvt INT,
+    @NomEvt VARCHAR(70),
+    @IdEvn INT,
+	@FchEvt DATE,
+	@HrEvt TIME(7),
+	@IdLug INT,
+	@CapEvt INT,
+	@ResEvt INT
+AS
+BEGIN
+    UPDATE Eventos
+    SET NomEvt = @NomEvt, IdEvn = @IdEvn, FchEvt = @FchEvt, HrEvt = @HrEvt, IdLug = @IdLug, CapEvt = @CapEvt, ResEvt = @ResEvt
+    WHERE idEvt = @idEvt
+END
+GO
+
+--
+-- Create table [dbo].[Colaboradores]
+--
+PRINT (N'Create table [dbo].[Colaboradores]')
+GO
+CREATE TABLE dbo.Colaboradores (
+  IdEmp int IDENTITY,
+  NomEmp nvarchar(70) NOT NULL,
+  FchNacEmp date NOT NULL,
+  DirEmp nvarchar(500) NOT NULL,
+  TelEmp nvarchar(11) NOT NULL,
+  GnrEmp bit NOT NULL,
+  IdPst int NOT NULL,
+  EmlUsu nvarchar(255) NOT NULL,
+  CONSTRAINT PK_Colaboradores PRIMARY KEY CLUSTERED (IdEmp)
+)
+ON [PRIMARY]
+GO
+
+--
+-- Create or alter procedure [dbo].[InsercionColaboradores2]
+--
+GO
+PRINT (N'Create or alter procedure [dbo].[InsercionColaboradores2]')
+GO
+CREATE OR ALTER PROCEDURE dbo.InsercionColaboradores2
+	-- Add the parameters for the stored procedure here
+	@NomEmp nvarchar(70),
+	@FchNacEmp date,	
+	@DirEmp nvarchar(500),
+	@TelEmp nvarchar(11),
+	@GnrEmp bit,
+	@IdPst int,
+	@EmlUsu nvarchar(255)
+AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;
+
+    -- Insert statements for procedure here
+	Insert into Colaboradores values (@NomEmp, @FchNacEmp, @DirEmp, @TelEmp, @GnrEmp, @IdPst, @EmlUsu)
+END
+GO
+
+--
+-- Create or alter procedure [dbo].[InsercionColaboradores]
+--
+GO
+PRINT (N'Create or alter procedure [dbo].[InsercionColaboradores]')
 GO
 -- =============================================
 -- Author:		<Author,,Name>
 -- Create date: <Create Date,,>
 -- Description:	<Description,,>
 -- =============================================
-CREATE PROCEDURE [dbo].[InsercionFacturaDetalle] 
+CREATE OR ALTER PROCEDURE dbo.InsercionColaboradores
+	-- Add the parameters for the stored procedure here
+	@NomEmp nvarchar(70),
+	@FchNacEmp date,
+	@EmlEmp nvarchar(255),
+	@DirEmp nvarchar(500),
+	@TelEmp nvarchar(11),
+	@GnrEmp bit,
+	@IdPst int,
+	@EmlUsu nvarchar(255)
+AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;
+
+    -- Insert statements for procedure here
+	Insert into Colaboradores values (@NomEmp, @FchNacEmp, @EmlEmp, @DirEmp, @TelEmp, @GnrEmp, @IdPst, @EmlUsu)
+END
+GO
+
+--
+-- Create or alter procedure [dbo].[EliminarColaborador]
+--
+GO
+PRINT (N'Create or alter procedure [dbo].[EliminarColaborador]')
+GO
+CREATE OR ALTER PROCEDURE dbo.EliminarColaborador
+    @IdEmp int
+AS
+BEGIN
+     -- Eliminar el registro del empleado
+      DELETE FROM Colaboradores
+      WHERE IdEmp = @IdEmp
+END
+GO
+
+--
+-- Create or alter procedure [dbo].[ActualizarColaborador]
+--
+GO
+PRINT (N'Create or alter procedure [dbo].[ActualizarColaborador]')
+GO
+
+CREATE OR ALTER PROCEDURE dbo.ActualizarColaborador
+    @IdEmp int,
+    @NomEmp nvarchar(70),
+    @FchNacEmp date,
+    @DirEmp nvarchar(500),
+    @TelEmp nvarchar(11),
+    @GnrEmp bit,
+    @IdPst int,
+    @EmlUsu nvarchar(255)
+AS
+BEGIN
+        -- Modificar el registro del empleado
+        UPDATE Colaboradores
+        SET NomEmp = @NomEmp,
+            FchNacEmp = @FchNacEmp,
+            DirEmp = @DirEmp,
+            TelEmp = @TelEmp,
+            GnrEmp = @GnrEmp,
+            IdPst = @IdPst,
+            EmlUsu = @EmlUsu
+        WHERE IdEmp = @IdEmp
+END
+
+GO
+
+--
+-- Create table [dbo].[Clientes]
+--
+PRINT (N'Create table [dbo].[Clientes]')
+GO
+CREATE TABLE dbo.Clientes (
+  IdCli nvarchar(13) NOT NULL,
+  NomCli nvarchar(70) NOT NULL,
+  TelCli nvarchar(11) NOT NULL,
+  EmlCli nvarchar(255) NOT NULL,
+  DirCli nvarchar(500) NULL,
+  RtnCli nvarchar(15) NULL,
+  GnrCli bit NOT NULL,
+  CONSTRAINT PK_Clientes PRIMARY KEY CLUSTERED (IdCli)
+)
+ON [PRIMARY]
+GO
+
+--
+-- Create or alter procedure [dbo].[InsercionClientes]
+--
+GO
+PRINT (N'Create or alter procedure [dbo].[InsercionClientes]')
+GO
+-- =============================================
+-- Author:		<Author,,Name>
+-- Create date: <Create Date,,>
+-- Description:	<Description,,>
+-- =============================================
+CREATE OR ALTER PROCEDURE dbo.InsercionClientes 
+	@IdCli nvarchar (13),
+	@NomCli nvarchar(70),
+	@TelCli nvarchar(11),
+	@EmlCli nvarchar(255),
+	@DirCli nvarchar(500),
+	@RtnCli nvarchar(15),
+	@GnrCli bit
+AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;
+
+    -- Insert statements for procedure here
+	Insert into Clientes values (@IdCli, @NomCli, @TelCli, @EmlCli,@DirCli, @RtnCli, @GnrCli)
+END
+GO
+
+--
+-- Create or alter procedure [dbo].[EliminarClientes]
+--
+GO
+PRINT (N'Create or alter procedure [dbo].[EliminarClientes]')
+GO
+CREATE OR ALTER PROCEDURE dbo.EliminarClientes 
+	-- Add the parameters for the stored procedure here
+	@IdCli nvarchar (13)
+AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;
+
+    -- Insert statements for procedure here
+	DELETE FROM Clientes
+	WHERE IdCli = @IdCli
+END
+GO
+
+--
+-- Create or alter procedure [dbo].[ActualizarClientes]
+--
+GO
+PRINT (N'Create or alter procedure [dbo].[ActualizarClientes]')
+GO
+CREATE OR ALTER PROCEDURE dbo.ActualizarClientes 
+	-- Add the parameters for the stored procedure here
+	@IdCli nvarchar (13),
+	@NomCli nvarchar(70),
+	@TelCli nvarchar(11),
+	@EmlCli nvarchar(255),
+	@DirCli nvarchar(500),
+	@RtnCli nvarchar(15),
+	@GnrCli bit
+AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;
+
+    -- Insert statements for procedure here
+	UPDATE Clientes SET NomCli = @NomCli, TelCli = @TelCli, EmlCli = @EmlCli, DirCli = @DirCli, RtnCli = @RtnCli, GnrCli = @GnrCli
+	WHERE IdCli = @IdCli
+END
+GO
+
+--
+-- Create table [dbo].[Bitacora]
+--
+PRINT (N'Create table [dbo].[Bitacora]')
+GO
+CREATE TABLE dbo.Bitacora (
+  IdBit int IDENTITY,
+  FchBit date NOT NULL,
+  HrBit time NOT NULL,
+  EmlUsu nvarchar(255) NOT NULL,
+  TipBit int NOT NULL,
+  DscBit nvarchar(100) NOT NULL,
+  CONSTRAINT PK_Bitacora PRIMARY KEY CLUSTERED (IdBit)
+)
+ON [PRIMARY]
+GO
+
+--
+-- Create or alter procedure [dbo].[InsertarBitacora]
+--
+GO
+PRINT (N'Create or alter procedure [dbo].[InsertarBitacora]')
+GO
+CREATE OR ALTER PROCEDURE dbo.InsertarBitacora
+    @EmlUsu NVARCHAR(255),
+    @Sentencia NVARCHAR(100)
+AS
+BEGIN
+    DECLARE @FchBit DATE = GETDATE();
+    DECLARE @HrBit TIME(7) = GETDATE();
+    DECLARE @TipBit INT;
+
+    IF CHARINDEX('Insercion', @Sentencia) > 0
+        SET @TipBit = 1;
+    ELSE IF CHARINDEX('Actualizar', @Sentencia) > 0
+        SET @TipBit = 2;
+    ELSE IF CHARINDEX('Eliminar', @Sentencia) > 0
+        SET @TipBit = 3;
+    ELSE
+        SET @TipBit = 0; -- Otra acción desconocida, asignar valor 0 o un valor apropiado según tu necesidad
+
+    INSERT INTO Bitacora (FchBit, HrBit, EmlUsu, TipBit, DscBit)
+    VALUES (@FchBit, @HrBit, @EmlUsu, @TipBit, @Sentencia);
+END
+GO
+
+--
+-- Create or alter procedure [dbo].[InsercionBitacora]
+--
+GO
+PRINT (N'Create or alter procedure [dbo].[InsercionBitacora]')
+GO
+-- =============================================
+-- Author:		<Author,,Name>
+-- Create date: <Create Date,,>
+-- Description:	<Description,,>
+-- =============================================
+CREATE OR ALTER PROCEDURE dbo.InsercionBitacora
+	-- Add the parameters for the stored procedure here
+	@FchBit date,
+	@HrBit time (7),
+	@EmlBit nvarchar(255),
+	@TipBit nvarchar(10),
+	@DscBit nvarchar(100)
+AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;
+
+    -- Insert statements for procedure here
+	Insert into Bitacora values (@FchBit, @HrBit, @EmlBit, @TipBit, @DscBit)
+END
+GO
+
+--
+-- Create table [dbo].[FacturasDetalle]
+--
+PRINT (N'Create table [dbo].[FacturasDetalle]')
+GO
+CREATE TABLE dbo.FacturasDetalle (
+  NroFact int NOT NULL,
+  IdTct int NOT NULL,
+  CONSTRAINT PK_FacturasDetalle PRIMARY KEY CLUSTERED (NroFact, IdTct)
+)
+ON [PRIMARY]
+GO
+
+--
+-- Create or alter procedure [dbo].[InsercionFacturaDetalle2]
+--
+GO
+PRINT (N'Create or alter procedure [dbo].[InsercionFacturaDetalle2]')
+GO
+CREATE OR ALTER PROCEDURE dbo.InsercionFacturaDetalle2 
+	-- Add the parameters for the stored procedure here
+ @NroFact int,
+ @IdTct int 
+AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;
+
+    -- Insert statements for procedure here
+	insert into FacturasDetalle values (@NroFact, @IdTct)
+END
+GO
+
+--
+-- Create or alter procedure [dbo].[InsercionFacturaDetalle]
+--
+GO
+PRINT (N'Create or alter procedure [dbo].[InsercionFacturaDetalle]')
+GO
+-- =============================================
+-- Author:		<Author,,Name>
+-- Create date: <Create Date,,>
+-- Description:	<Description,,>
+-- =============================================
+CREATE OR ALTER PROCEDURE dbo.InsercionFacturaDetalle 
 	-- Add the parameters for the stored procedure here
  @NroFact int,
  @IdTct int,
@@ -525,98 +1091,557 @@ BEGIN
 	insert into FacturasDetalle values (@NroFact, @IdTct, @CantTct)
 END
 GO
-/****** Object:  StoredProcedure [dbo].[InsercionFacturaEncabezado]    Script Date: 1/7/2023 21:19:18 ******/
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
--- =============================================
--- Author:		<Author,,Name>
--- Create date: <Create Date,,>
--- Description:	<Description,,>
--- =============================================
-CREATE PROCEDURE [dbo].[InsercionFacturaEncabezado]
-	-- Add the parameters for the stored procedure here
-	@IdCli nvarchar(13),
-	@IdEmp int, 
-	@FchEmp date
-AS
-BEGIN
-	-- SET NOCOUNT ON added to prevent extra result sets from
-	-- interfering with SELECT statements.
-	SET NOCOUNT ON;
 
-    -- Insert statements for procedure here
-	insert into FacturasEncabezado values (@IdCli, @IdEmp, @FchEmp)
-END
+--
+-- Create or alter view [dbo].[vistaReporteFactura]
+--
 GO
-/****** Object:  StoredProcedure [dbo].[InsercionLugares]    Script Date: 1/7/2023 21:19:18 ******/
-SET ANSI_NULLS ON
+PRINT (N'Create or alter view [dbo].[vistaReporteFactura]')
 GO
-SET QUOTED_IDENTIFIER ON
-GO
--- =============================================
--- Author:		<Author,,Name>
--- Create date: <Create Date,,>
--- Description:	<Description,,>
--- =============================================
-CREATE PROCEDURE [dbo].[InsercionLugares] 
-	-- Add the parameters for the stored procedure here
-	@NomLug nvarchar(40),
-	@CapLug int
-AS
-BEGIN
-	-- SET NOCOUNT ON added to prevent extra result sets from
-	-- interfering with SELECT statements.
-	SET NOCOUNT ON;
 
-    -- Insert statements for procedure here
-	insert into Lugares values (@NomLug, @CapLug)
-END
-GO
-/****** Object:  StoredProcedure [dbo].[InsercionNiveles]    Script Date: 1/7/2023 21:19:18 ******/
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
--- =============================================
--- Author:		<Author,,Name>
--- Create date: <Create Date,,>
--- Description:	<Description,,>
--- =============================================
-CREATE PROCEDURE [dbo].[InsercionNiveles] 
-	-- Add the parameters for the stored procedure here
-	@NomNvl nvarchar (20)
+CREATE OR ALTER VIEW dbo.vistaReporteFactura
 AS
-BEGIN
-	-- SET NOCOUNT ON added to prevent extra result sets from
-	-- interfering with SELECT statements.
-	SET NOCOUNT ON;
+SELECT        dbo.FacturasDetalle.NroFact, dbo.FacturasEncabezado.FchEmp, dbo.Clientes.NomCli, dbo.Colaboradores.NomEmp, dbo.Puestos.NomPst, dbo.Tickets.IdTct, dbo.Ubicaciones.ZonaUbc, dbo.Ubicaciones.PreTct, 
+                         dbo.Tickets.NumUbc
+FROM            dbo.FacturasDetalle INNER JOIN
+                         dbo.FacturasEncabezado ON dbo.FacturasDetalle.NroFact = dbo.FacturasEncabezado.NroFact INNER JOIN
+                         dbo.Clientes ON dbo.FacturasEncabezado.IdCli = dbo.Clientes.IdCli INNER JOIN
+                         dbo.Colaboradores ON dbo.FacturasEncabezado.IdEmp = dbo.Colaboradores.IdEmp INNER JOIN
+                         dbo.Tickets ON dbo.FacturasDetalle.IdTct = dbo.Tickets.IdTct AND dbo.Clientes.IdCli = dbo.Tickets.IdCli INNER JOIN
+                         dbo.Puestos ON dbo.Colaboradores.IdPst = dbo.Puestos.IdPst INNER JOIN
+                         dbo.Ubicaciones ON dbo.Tickets.IdUbc = dbo.Ubicaciones.IdUbc
+GO
 
-    -- Insert statements for procedure here
-Insert into Niveles values(@NomNvl)
-END
+--
+-- Add extended property [MS_DiagramPane1] on view [dbo].[vistaReporteFactura]
+--
+PRINT (N'Add extended property [MS_DiagramPane1] on view [dbo].[vistaReporteFactura]')
 GO
-/****** Object:  StoredProcedure [dbo].[InsercionUbicaciones]    Script Date: 1/7/2023 21:19:18 ******/
-SET ANSI_NULLS ON
+EXEC sys.sp_addextendedproperty N'MS_DiagramPane1', N'[0E232FF0-B466-11cf-A24F-00AA00A3EFFF, 1.00]
+Begin DesignProperties = 
+   Begin PaneConfigurations = 
+      Begin PaneConfiguration = 0
+         NumPanes = 4
+         Configuration = "(H (1[58] 4[4] 2[20] 3) )"
+      End
+      Begin PaneConfiguration = 1
+         NumPanes = 3
+         Configuration = "(H (1 [50] 4 [25] 3))"
+      End
+      Begin PaneConfiguration = 2
+         NumPanes = 3
+         Configuration = "(H (1 [50] 2 [25] 3))"
+      End
+      Begin PaneConfiguration = 3
+         NumPanes = 3
+         Configuration = "(H (4 [30] 2 [40] 3))"
+      End
+      Begin PaneConfiguration = 4
+         NumPanes = 2
+         Configuration = "(H (1 [56] 3))"
+      End
+      Begin PaneConfiguration = 5
+         NumPanes = 2
+         Configuration = "(H (2 [66] 3))"
+      End
+      Begin PaneConfiguration = 6
+         NumPanes = 2
+         Configuration = "(H (4 [50] 3))"
+      End
+      Begin PaneConfiguration = 7
+         NumPanes = 1
+         Configuration = "(V (3))"
+      End
+      Begin PaneConfiguration = 8
+         NumPanes = 3
+         Configuration = "(H (1[56] 4[18] 2) )"
+      End
+      Begin PaneConfiguration = 9
+         NumPanes = 2
+         Configuration = "(H (1 [75] 4))"
+      End
+      Begin PaneConfiguration = 10
+         NumPanes = 2
+         Configuration = "(H (1[66] 2) )"
+      End
+      Begin PaneConfiguration = 11
+         NumPanes = 2
+         Configuration = "(H (4 [60] 2))"
+      End
+      Begin PaneConfiguration = 12
+         NumPanes = 1
+         Configuration = "(H (1) )"
+      End
+      Begin PaneConfiguration = 13
+         NumPanes = 1
+         Configuration = "(V (4))"
+      End
+      Begin PaneConfiguration = 14
+         NumPanes = 1
+         Configuration = "(V (2))"
+      End
+      ActivePaneConfig = 0
+   End
+   Begin DiagramPane = 
+      Begin Origin = 
+         Top = 0
+         Left = 0
+      End
+      Begin Tables = 
+         Begin Table = "FacturasDetalle"
+            Begin Extent = 
+               Top = 6
+               Left = 38
+               Bottom = 102
+               Right = 208
+            End
+            DisplayFlags = 280
+            TopColumn = 0
+         End
+         Begin Table = "FacturasEncabezado"
+            Begin Extent = 
+               Top = 6
+               Left = 246
+               Bottom = 136
+               Right = 416
+            End
+            DisplayFlags = 280
+            TopColumn = 0
+         End
+         Begin Table = "Clientes"
+            Begin Extent = 
+               Top = 6
+               Left = 454
+               Bottom = 136
+               Right = 624
+            End
+            DisplayFlags = 280
+            TopColumn = 3
+         End
+         Begin Table = "Colaboradores"
+            Begin Extent = 
+               Top = 6
+               Left = 662
+               Bottom = 136
+               Right = 832
+            End
+            DisplayFlags = 280
+            TopColumn = 4
+         End
+         Begin Table = "Tickets"
+            Begin Extent = 
+               Top = 102
+               Left = 38
+               Bottom = 232
+               Right = 208
+            End
+            DisplayFlags = 280
+            TopColumn = 1
+         End
+         Begin Table = "Puestos"
+            Begin Extent = 
+               Top = 138
+               Left = 246
+               Bottom = 234
+               Right = 416
+            End
+            DisplayFlags = 280
+            TopColumn = 0
+         End
+         Begin Table = "Ubicaciones"
+            Begin Extent = 
+               Top = 138
+               Left = 454
+               Bottom = 251
+               Right = 624
+            End
+     ', 'SCHEMA', N'dbo', 'VIEW', N'vistaReporteFactura'
 GO
-SET QUOTED_IDENTIFIER ON
-GO
--- =============================================
--- Author:		<Author,,Name>
--- Create date: <Create Date,,>
--- Description:	<Description,,>
--- =============================================
-CREATE PROCEDURE [dbo].[InsercionUbicaciones] 
-	-- Add the parameters for the stored procedure here
-	@ZonaUbc nvarchar(20)
-AS
-BEGIN
-	-- SET NOCOUNT ON added to prevent extra result sets from
-	-- interfering with SELECT statements.
-	SET NOCOUNT ON;
 
-    -- Insert statements for procedure here
-	INSERT INTO Ubicaciones VALUES (@ZonaUbc)
-END
+--
+-- Add extended property [MS_DiagramPane2] on view [dbo].[vistaReporteFactura]
+--
+PRINT (N'Add extended property [MS_DiagramPane2] on view [dbo].[vistaReporteFactura]')
+GO
+EXEC sys.sp_addextendedproperty N'MS_DiagramPane2', N'       DisplayFlags = 280
+            TopColumn = 0
+         End
+      End
+   End
+   Begin SQLPane = 
+   End
+   Begin DataPane = 
+      Begin ParameterDefaults = ""
+      End
+   End
+   Begin CriteriaPane = 
+      Begin ColumnWidths = 11
+         Column = 1440
+         Alias = 900
+         Table = 1170
+         Output = 720
+         Append = 1400
+         NewValue = 1170
+         SortType = 1350
+         SortOrder = 1410
+         GroupBy = 1350
+         Filter = 1350
+         Or = 1350
+         Or = 1350
+         Or = 1350
+      End
+   End
+End
+', 'SCHEMA', N'dbo', 'VIEW', N'vistaReporteFactura'
+GO
+
+--
+-- Add extended property [MS_DiagramPaneCount] on view [dbo].[vistaReporteFactura]
+--
+PRINT (N'Add extended property [MS_DiagramPaneCount] on view [dbo].[vistaReporteFactura]')
+GO
+EXEC sys.sp_addextendedproperty N'MS_DiagramPaneCount', 2, 'SCHEMA', N'dbo', 'VIEW', N'vistaReporteFactura'
+GO
+
+-- 
+-- Dumping data for table Usuarios
+--
+PRINT (N'Dumping data for table Usuarios')
+INSERT dbo.Usuarios VALUES (N'ejemplo@gmail.com', N'4813494d137e1631bba301d5acab6e7bb7aa74ce1185d456565ef51d737677b2', 0, 1, CONVERT(bit, 'True'))
+INSERT dbo.Usuarios VALUES (N'jdpena0423@gmail.com', N'4813494d137e1631bba301d5acab6e7bb7aa74ce1185d456565ef51d737677b2', 0, 1, CONVERT(bit, 'True'))
+INSERT dbo.Usuarios VALUES (N'linustorvalds@gmail.com', N'4813494d137e1631bba301d5acab6e7bb7aa74ce1185d456565ef51d737677b2', 0, 5, CONVERT(bit, 'True'))
+INSERT dbo.Usuarios VALUES (N'prueba2@gmail.com', N'4813494d137e1631bba301d5acab6e7bb7aa74ce1185d456565ef51d737677b2', 0, 1, CONVERT(bit, 'True'))
+GO
+
+-- 
+-- Dumping data for table Ubicaciones
+--
+PRINT (N'Dumping data for table Ubicaciones')
+SET IDENTITY_INSERT dbo.Ubicaciones ON
+GO
+INSERT dbo.Ubicaciones(IdUbc, ZonaUbc, PreTct) VALUES (1, N'EXPERIENCIA VIP', 4600)
+INSERT dbo.Ubicaciones(IdUbc, ZonaUbc, PreTct) VALUES (3, N'Dance Floor', 870)
+INSERT dbo.Ubicaciones(IdUbc, ZonaUbc, PreTct) VALUES (5, N'Grada Preferencial', 1305)
+INSERT dbo.Ubicaciones(IdUbc, ZonaUbc, PreTct) VALUES (6, N'General', 1060)
+GO
+SET IDENTITY_INSERT dbo.Ubicaciones OFF
+GO
+
+-- 
+-- Dumping data for table TipoEventos
+--
+PRINT (N'Dumping data for table TipoEventos')
+SET IDENTITY_INSERT dbo.TipoEventos ON
+GO
+INSERT dbo.TipoEventos(IdEvn, NomEvn) VALUES (1, N'Concerts')
+INSERT dbo.TipoEventos(IdEvn, NomEvn) VALUES (2, N'Winter Fest')
+INSERT dbo.TipoEventos(IdEvn, NomEvn) VALUES (4, N'Sports')
+INSERT dbo.TipoEventos(IdEvn, NomEvn) VALUES (5, N'Summer Fest')
+GO
+SET IDENTITY_INSERT dbo.TipoEventos OFF
+GO
+
+-- 
+-- Dumping data for table Tickets
+--
+PRINT (N'Dumping data for table Tickets')
+SET IDENTITY_INSERT dbo.Tickets ON
+GO
+INSERT dbo.Tickets(IdTct, IdEvt, IdCli, IdUbc, NumUbc) VALUES (1, 1, N'0801245650123', 1, 0)
+INSERT dbo.Tickets(IdTct, IdEvt, IdCli, IdUbc, NumUbc) VALUES (2, 1, N'3132489484984', 1, 0)
+INSERT dbo.Tickets(IdTct, IdEvt, IdCli, IdUbc, NumUbc) VALUES (3, 1, N'0501200109786', 1, 0)
+INSERT dbo.Tickets(IdTct, IdEvt, IdCli, IdUbc, NumUbc) VALUES (4, 1, N'0801200507896', 1, 0)
+INSERT dbo.Tickets(IdTct, IdEvt, IdCli, IdUbc, NumUbc) VALUES (5, 1, N'2001123698745', 1, 1900)
+INSERT dbo.Tickets(IdTct, IdEvt, IdCli, IdUbc, NumUbc) VALUES (6, 2, N'2001123698745', 3, 3800)
+INSERT dbo.Tickets(IdTct, IdEvt, IdCli, IdUbc, NumUbc) VALUES (7, 2, N'0801245650123', 1, 3800)
+INSERT dbo.Tickets(IdTct, IdEvt, IdCli, IdUbc, NumUbc) VALUES (8, 2, N'0501200109786', 3, 3800)
+GO
+SET IDENTITY_INSERT dbo.Tickets OFF
+GO
+
+-- 
+-- Dumping data for table Puestos
+--
+PRINT (N'Dumping data for table Puestos')
+SET IDENTITY_INSERT dbo.Puestos ON
+GO
+INSERT dbo.Puestos(IdPst, NomPst) VALUES (3, N'Admin')
+INSERT dbo.Puestos(IdPst, NomPst) VALUES (4, N'Asociado')
+INSERT dbo.Puestos(IdPst, NomPst) VALUES (5, N'Colaborador')
+GO
+SET IDENTITY_INSERT dbo.Puestos OFF
+GO
+
+-- 
+-- Dumping data for table Niveles
+--
+PRINT (N'Dumping data for table Niveles')
+SET IDENTITY_INSERT dbo.Niveles ON
+GO
+INSERT dbo.Niveles(IdNvl, NomNvl) VALUES (1, N'Admin')
+INSERT dbo.Niveles(IdNvl, NomNvl) VALUES (5, N'Auditores')
+GO
+SET IDENTITY_INSERT dbo.Niveles OFF
+GO
+
+-- 
+-- Dumping data for table Lugares
+--
+PRINT (N'Dumping data for table Lugares')
+SET IDENTITY_INSERT dbo.Lugares ON
+GO
+INSERT dbo.Lugares(IdLug, NomLug, CapLug) VALUES (1, N'Chochi Sosa', 1500)
+INSERT dbo.Lugares(IdLug, NomLug, CapLug) VALUES (3, N'Coliseum N.I.C.', 1400)
+INSERT dbo.Lugares(IdLug, NomLug, CapLug) VALUES (4, N'Expo Centro SPS.', 15000)
+GO
+SET IDENTITY_INSERT dbo.Lugares OFF
+GO
+
+-- 
+-- Dumping data for table FacturasEncabezado
+--
+PRINT (N'Dumping data for table FacturasEncabezado')
+SET IDENTITY_INSERT dbo.FacturasEncabezado ON
+GO
+INSERT dbo.FacturasEncabezado(NroFact, IdCli, IdEmp, FchEmp) VALUES (1, N'0801245650123', 1, '2023-07-06')
+INSERT dbo.FacturasEncabezado(NroFact, IdCli, IdEmp, FchEmp) VALUES (2, N'3132489484984', 1, '2023-07-06')
+INSERT dbo.FacturasEncabezado(NroFact, IdCli, IdEmp, FchEmp) VALUES (3, N'0501200109786', 1, '2023-07-06')
+INSERT dbo.FacturasEncabezado(NroFact, IdCli, IdEmp, FchEmp) VALUES (4, N'0801200507896', 1, '2023-07-08')
+INSERT dbo.FacturasEncabezado(NroFact, IdCli, IdEmp, FchEmp) VALUES (5, N'2001123698745', 1, '2023-07-10')
+INSERT dbo.FacturasEncabezado(NroFact, IdCli, IdEmp, FchEmp) VALUES (6, N'2001123698745', 7, '2023-07-10')
+INSERT dbo.FacturasEncabezado(NroFact, IdCli, IdEmp, FchEmp) VALUES (7, N'0801245650123', 1, '2023-07-10')
+INSERT dbo.FacturasEncabezado(NroFact, IdCli, IdEmp, FchEmp) VALUES (8, N'0501200109786', 1, '2023-07-11')
+GO
+SET IDENTITY_INSERT dbo.FacturasEncabezado OFF
+GO
+
+-- 
+-- Dumping data for table FacturasDetalle
+--
+PRINT (N'Dumping data for table FacturasDetalle')
+INSERT dbo.FacturasDetalle VALUES (2, 2)
+INSERT dbo.FacturasDetalle VALUES (3, 3)
+INSERT dbo.FacturasDetalle VALUES (4, 4)
+INSERT dbo.FacturasDetalle VALUES (5, 5)
+INSERT dbo.FacturasDetalle VALUES (6, 6)
+INSERT dbo.FacturasDetalle VALUES (7, 7)
+INSERT dbo.FacturasDetalle VALUES (8, 8)
+GO
+
+-- 
+-- Dumping data for table Eventos
+--
+PRINT (N'Dumping data for table Eventos')
+SET IDENTITY_INSERT dbo.Eventos ON
+GO
+INSERT dbo.Eventos(IdEvt, NomEvt, IdEvn, FchEvt, HrEvt, IdLug, CapEvt, ResEvt) VALUES (1, N'Concierto Hibriduz', 1, '2023-07-03', '12:00:00', 1, 100, 100)
+INSERT dbo.Eventos(IdEvt, NomEvt, IdEvn, FchEvt, HrEvt, IdLug, CapEvt, ResEvt) VALUES (2, N'Concierto Grupo Frontera', 5, '2023-07-25', '18:00:00', 4, 150, 100)
+GO
+SET IDENTITY_INSERT dbo.Eventos OFF
+GO
+
+-- 
+-- Dumping data for table Colaboradores
+--
+PRINT (N'Dumping data for table Colaboradores')
+SET IDENTITY_INSERT dbo.Colaboradores ON
+GO
+INSERT dbo.Colaboradores(IdEmp, NomEmp, FchNacEmp, DirEmp, TelEmp, GnrEmp, IdPst, EmlUsu) VALUES (1, N'Armando Mendoza', '2023-07-10', N'Medellin Colombia', N'91235678', CONVERT(bit, 'True'), 3, N'ejemplo@gmail.com')
+INSERT dbo.Colaboradores(IdEmp, NomEmp, FchNacEmp, DirEmp, TelEmp, GnrEmp, IdPst, EmlUsu) VALUES (7, N'Jefry Daniel P', '2023-07-10', N'Lomas del Guijarro', N'94896345', CONVERT(bit, 'False'), 3, N'jdpena0423@gmail.com')
+INSERT dbo.Colaboradores(IdEmp, NomEmp, FchNacEmp, DirEmp, TelEmp, GnrEmp, IdPst, EmlUsu) VALUES (8, N'Linus Benedict Torvalds', '2023-07-10', N'Finland', N'74125632', CONVERT(bit, 'False'), 3, N'linustorvalds@gmail.com')
+GO
+SET IDENTITY_INSERT dbo.Colaboradores OFF
+GO
+
+-- 
+-- Dumping data for table Clientes
+--
+PRINT (N'Dumping data for table Clientes')
+INSERT dbo.Clientes VALUES (N'0501200109786', N'Alejandro Andino', N'75413236', N'aleandino@gmail.com', N'La Libertad Comayagua', N'05012001097863', CONVERT(bit, 'False'))
+INSERT dbo.Clientes VALUES (N'0801200507896', N'Ana Funseca', N'98741236', N'example@yahoo.com', N'Siguatepeque, El Parnaso', N'0801200507896', CONVERT(bit, 'True'))
+INSERT dbo.Clientes VALUES (N'0801245650123', N'Joe Ramirez', N'85749614', N'joe@gmail.com', N'Usa, Dc, washington', N'08012456501235', CONVERT(bit, 'False'))
+INSERT dbo.Clientes VALUES (N'0805199508963', N'Rando Velasquez', N'65789412', N'randomv@outlook.com', N'San Pedro Sula, Cortes', N'08051995089634', CONVERT(bit, 'False'))
+INSERT dbo.Clientes VALUES (N'2001123698745', N'Ana Funez Mori', N'86741245', N'fuana@gmail.com', N'El hato de enmedio', N'20011236987456', CONVERT(bit, 'True'))
+INSERT dbo.Clientes VALUES (N'3132489484984', N'Juana la cubana', N'18004578', N'juanacubana@yahoo.com', N'La Habana, Cuba', N'31324894849845', CONVERT(bit, 'True'))
+GO
+
+-- 
+-- Dumping data for table Bitacora
+--
+PRINT (N'Dumping data for table Bitacora')
+SET IDENTITY_INSERT dbo.Bitacora ON
+GO
+INSERT dbo.Bitacora(IdBit, FchBit, HrBit, EmlUsu, TipBit, DscBit) VALUES (1, '2023-07-10', '13:48:08.5200000', N'ejemplo@gmail.com', 1, N'Se realizo insercion en Lugares')
+INSERT dbo.Bitacora(IdBit, FchBit, HrBit, EmlUsu, TipBit, DscBit) VALUES (2, '2023-07-10', '13:48:17.2900000', N'ejemplo@gmail.com', 0, N'Se realizo Actualizacion en Lugares')
+INSERT dbo.Bitacora(IdBit, FchBit, HrBit, EmlUsu, TipBit, DscBit) VALUES (3, '2023-07-10', '14:07:54.6700000', N'ejemplo@gmail.com', 1, N'Se realizo insercion en Lugares')
+INSERT dbo.Bitacora(IdBit, FchBit, HrBit, EmlUsu, TipBit, DscBit) VALUES (4, '2023-07-10', '14:08:26.9866667', N'ejemplo@gmail.com', 0, N'Se realizo Actualizacion en Lugares')
+INSERT dbo.Bitacora(IdBit, FchBit, HrBit, EmlUsu, TipBit, DscBit) VALUES (5, '2023-07-10', '14:18:48.8266667', N'ejemplo@gmail.com', 1, N'Se realizo insercion en Ubicaciones')
+INSERT dbo.Bitacora(IdBit, FchBit, HrBit, EmlUsu, TipBit, DscBit) VALUES (6, '2023-07-10', '14:20:15.0633333', N'ejemplo@gmail.com', 0, N'Se realizo Actualizacion en Lugares')
+INSERT dbo.Bitacora(IdBit, FchBit, HrBit, EmlUsu, TipBit, DscBit) VALUES (7, '2023-07-10', '14:21:02.0800000', N'ejemplo@gmail.com', 0, N'Se realizo Actualizacion en Lugares')
+INSERT dbo.Bitacora(IdBit, FchBit, HrBit, EmlUsu, TipBit, DscBit) VALUES (8, '2023-07-10', '14:21:17.1533333', N'ejemplo@gmail.com', 1, N'Se realizo insercion en Lugares')
+INSERT dbo.Bitacora(IdBit, FchBit, HrBit, EmlUsu, TipBit, DscBit) VALUES (9, '2023-07-10', '14:21:22.5333333', N'ejemplo@gmail.com', 0, N'Se realizo Eliminacion de un registro en Lugares')
+INSERT dbo.Bitacora(IdBit, FchBit, HrBit, EmlUsu, TipBit, DscBit) VALUES (10, '2023-07-10', '14:22:17.0133333', N'ejemplo@gmail.com', 1, N'Se realizo insercion en Lugares')
+INSERT dbo.Bitacora(IdBit, FchBit, HrBit, EmlUsu, TipBit, DscBit) VALUES (11, '2023-07-10', '14:22:32.6500000', N'ejemplo@gmail.com', 0, N'Se realizo Actualizacion en Lugares')
+INSERT dbo.Bitacora(IdBit, FchBit, HrBit, EmlUsu, TipBit, DscBit) VALUES (12, '2023-07-10', '14:23:34.2700000', N'ejemplo@gmail.com', 0, N'Se realizo Eliminacion de un registro en Lugares')
+INSERT dbo.Bitacora(IdBit, FchBit, HrBit, EmlUsu, TipBit, DscBit) VALUES (13, '2023-07-10', '14:51:38.6333333', N'ejemplo@gmail.com', 1, N'Se realizo insercion en Usuarios')
+INSERT dbo.Bitacora(IdBit, FchBit, HrBit, EmlUsu, TipBit, DscBit) VALUES (14, '2023-07-10', '14:53:49.7033333', N'ejemplo@gmail.com', 1, N'Se realizo insercion en TipoEventos')
+INSERT dbo.Bitacora(IdBit, FchBit, HrBit, EmlUsu, TipBit, DscBit) VALUES (15, '2023-07-10', '14:53:55.7766667', N'ejemplo@gmail.com', 0, N'Se realizo Actualizacion en TipoEventos')
+INSERT dbo.Bitacora(IdBit, FchBit, HrBit, EmlUsu, TipBit, DscBit) VALUES (16, '2023-07-10', '14:54:10.4433333', N'ejemplo@gmail.com', 0, N'Se realizo Actualizacion en TipoEventos')
+INSERT dbo.Bitacora(IdBit, FchBit, HrBit, EmlUsu, TipBit, DscBit) VALUES (17, '2023-07-10', '14:54:13.3400000', N'ejemplo@gmail.com', 1, N'Se realizo insercion en TipoEventos')
+INSERT dbo.Bitacora(IdBit, FchBit, HrBit, EmlUsu, TipBit, DscBit) VALUES (18, '2023-07-10', '14:54:16.4033333', N'ejemplo@gmail.com', 0, N'Se realizo Eliminacion de registro en TipoEventos')
+INSERT dbo.Bitacora(IdBit, FchBit, HrBit, EmlUsu, TipBit, DscBit) VALUES (19, '2023-07-10', '14:55:18.6833333', N'ejemplo@gmail.com', 1, N'Se realizo insercion en Eventos')
+INSERT dbo.Bitacora(IdBit, FchBit, HrBit, EmlUsu, TipBit, DscBit) VALUES (20, '2023-07-10', '14:56:19.2766667', N'ejemplo@gmail.com', 0, N'Se realizo Actualizacion en Eventos')
+INSERT dbo.Bitacora(IdBit, FchBit, HrBit, EmlUsu, TipBit, DscBit) VALUES (21, '2023-07-10', '14:56:49.8466667', N'ejemplo@gmail.com', 0, N'Se realizo Actualizacion en Eventos')
+INSERT dbo.Bitacora(IdBit, FchBit, HrBit, EmlUsu, TipBit, DscBit) VALUES (22, '2023-07-10', '14:57:47.4400000', N'ejemplo@gmail.com', 0, N'Se realizo Eliminacion de registro en Usuarios')
+INSERT dbo.Bitacora(IdBit, FchBit, HrBit, EmlUsu, TipBit, DscBit) VALUES (23, '2023-07-10', '16:45:06.9633333', N'ejemplo@gmail.com', 1, N'Se realizo insercion en clientes, factura, facturadetalles y Tickects')
+INSERT dbo.Bitacora(IdBit, FchBit, HrBit, EmlUsu, TipBit, DscBit) VALUES (24, '2023-07-10', '16:51:59.3333333', N'ejemplo@gmail.com', 1, N'Se realizo insercion en Usuarios')
+INSERT dbo.Bitacora(IdBit, FchBit, HrBit, EmlUsu, TipBit, DscBit) VALUES (25, '2023-07-10', '17:21:27.0300000', N'ejemplo@gmail.com', 0, N'Se realizo Actualizacion en Colaboradores')
+INSERT dbo.Bitacora(IdBit, FchBit, HrBit, EmlUsu, TipBit, DscBit) VALUES (26, '2023-07-10', '17:26:23', N'ejemplo@gmail.com', 1, N'Se realizo insercion en Usuarios')
+INSERT dbo.Bitacora(IdBit, FchBit, HrBit, EmlUsu, TipBit, DscBit) VALUES (27, '2023-07-10', '17:27:17.5966667', N'ejemplo@gmail.com', 1, N'Se realizo insercion en Colaboradores')
+INSERT dbo.Bitacora(IdBit, FchBit, HrBit, EmlUsu, TipBit, DscBit) VALUES (28, '2023-07-10', '17:35:13.9066667', N'ejemplo@gmail.com', 0, N'Se realizo Actualizacion en TipoEventos')
+INSERT dbo.Bitacora(IdBit, FchBit, HrBit, EmlUsu, TipBit, DscBit) VALUES (29, '2023-07-10', '17:35:21.7500000', N'ejemplo@gmail.com', 0, N'Se realizo Actualizacion en TipoEventos')
+INSERT dbo.Bitacora(IdBit, FchBit, HrBit, EmlUsu, TipBit, DscBit) VALUES (30, '2023-07-10', '17:35:26.0300000', N'ejemplo@gmail.com', 0, N'Se realizo Actualizacion en TipoEventos')
+INSERT dbo.Bitacora(IdBit, FchBit, HrBit, EmlUsu, TipBit, DscBit) VALUES (31, '2023-07-10', '17:35:43.0100000', N'ejemplo@gmail.com', 0, N'Se realizo Actualizacion en TipoEventos')
+INSERT dbo.Bitacora(IdBit, FchBit, HrBit, EmlUsu, TipBit, DscBit) VALUES (32, '2023-07-10', '17:54:03.2133333', N'jdpena0423@gmail.com', 0, N'Se realizo Actualizacion en Lugares')
+INSERT dbo.Bitacora(IdBit, FchBit, HrBit, EmlUsu, TipBit, DscBit) VALUES (33, '2023-07-10', '17:55:11', N'jdpena0423@gmail.com', 1, N'Se realizo insercion en clientes, factura, facturadetalles y Tickects')
+INSERT dbo.Bitacora(IdBit, FchBit, HrBit, EmlUsu, TipBit, DscBit) VALUES (34, '2023-07-10', '18:20:38.5033333', N'ejemplo@gmail.com', 1, N'Se realizo insercion en clientes, factura, facturadetalles y Tickects')
+INSERT dbo.Bitacora(IdBit, FchBit, HrBit, EmlUsu, TipBit, DscBit) VALUES (35, '2023-07-10', '18:34:29.3400000', N'ejemplo@gmail.com', 1, N'Se realizo insercion en Usuarios')
+INSERT dbo.Bitacora(IdBit, FchBit, HrBit, EmlUsu, TipBit, DscBit) VALUES (36, '2023-07-11', '16:49:11.8866667', N'jdpena0423@gmail.com', 0, N'Se realizo Actualizacion en Lugares')
+INSERT dbo.Bitacora(IdBit, FchBit, HrBit, EmlUsu, TipBit, DscBit) VALUES (37, '2023-07-11', '16:49:47.8300000', N'jdpena0423@gmail.com', 0, N'Se realizo Actualizacion en Lugares')
+INSERT dbo.Bitacora(IdBit, FchBit, HrBit, EmlUsu, TipBit, DscBit) VALUES (38, '2023-07-11', '16:50:20.1400000', N'jdpena0423@gmail.com', 0, N'Se realizo Actualizacion en Lugares')
+INSERT dbo.Bitacora(IdBit, FchBit, HrBit, EmlUsu, TipBit, DscBit) VALUES (39, '2023-07-11', '16:51:02.2000000', N'jdpena0423@gmail.com', 0, N'Se realizo Actualizacion en Lugares')
+INSERT dbo.Bitacora(IdBit, FchBit, HrBit, EmlUsu, TipBit, DscBit) VALUES (40, '2023-07-11', '16:51:44.0600000', N'jdpena0423@gmail.com', 0, N'Se realizo Actualizacion en Lugares')
+INSERT dbo.Bitacora(IdBit, FchBit, HrBit, EmlUsu, TipBit, DscBit) VALUES (41, '2023-07-11', '16:53:25.5666667', N'jdpena0423@gmail.com', 0, N'Se realizo Actualizacion en Colaboradores')
+INSERT dbo.Bitacora(IdBit, FchBit, HrBit, EmlUsu, TipBit, DscBit) VALUES (42, '2023-07-11', '16:55:04.2333333', N'jdpena0423@gmail.com', 0, N'Se realizo Actualizacion en Usuarios')
+INSERT dbo.Bitacora(IdBit, FchBit, HrBit, EmlUsu, TipBit, DscBit) VALUES (43, '2023-07-11', '18:28:53.7466667', N'ejemplo@gmail.com', 1, N'Se realizo insercion en Lugares')
+INSERT dbo.Bitacora(IdBit, FchBit, HrBit, EmlUsu, TipBit, DscBit) VALUES (44, '2023-07-11', '18:29:08.6066667', N'ejemplo@gmail.com', 0, N'Se realizo Actualizacion en Lugares')
+INSERT dbo.Bitacora(IdBit, FchBit, HrBit, EmlUsu, TipBit, DscBit) VALUES (45, '2023-07-11', '18:29:17.2100000', N'ejemplo@gmail.com', 0, N'Se realizo Eliminacion de un registro en Lugares')
+INSERT dbo.Bitacora(IdBit, FchBit, HrBit, EmlUsu, TipBit, DscBit) VALUES (46, '2023-07-11', '18:33:18.7666667', N'ejemplo@gmail.com', 1, N'Se realizo insercion en clientes, factura, facturadetalles y Tickects')
+GO
+SET IDENTITY_INSERT dbo.Bitacora OFF
+GO
+
+USE SeminarioTickets
+GO
+
+IF DB_NAME() <> N'SeminarioTickets' SET NOEXEC ON
+GO
+
+--
+-- Create foreign key [FK_Usuarios_Niveles] on table [dbo].[Usuarios]
+--
+PRINT (N'Create foreign key [FK_Usuarios_Niveles] on table [dbo].[Usuarios]')
+GO
+ALTER TABLE dbo.Usuarios
+  ADD CONSTRAINT FK_Usuarios_Niveles FOREIGN KEY (IdNvl) REFERENCES dbo.Niveles (IdNvl)
+GO
+
+--
+-- Create foreign key on table [dbo].[Colaboradores]
+--
+PRINT (N'Create foreign key on table [dbo].[Colaboradores]')
+GO
+ALTER TABLE dbo.Colaboradores
+  ADD FOREIGN KEY (EmlUsu) REFERENCES dbo.Usuarios (EmlUsu)
+GO
+
+--
+-- Create foreign key [FK_Colaboradores_Puestos] on table [dbo].[Colaboradores]
+--
+PRINT (N'Create foreign key [FK_Colaboradores_Puestos] on table [dbo].[Colaboradores]')
+GO
+ALTER TABLE dbo.Colaboradores
+  ADD CONSTRAINT FK_Colaboradores_Puestos FOREIGN KEY (IdPst) REFERENCES dbo.Puestos (IdPst)
+GO
+
+--
+-- Create foreign key [FK_FacturasEncabezado_Clientes] on table [dbo].[FacturasEncabezado]
+--
+PRINT (N'Create foreign key [FK_FacturasEncabezado_Clientes] on table [dbo].[FacturasEncabezado]')
+GO
+ALTER TABLE dbo.FacturasEncabezado
+  ADD CONSTRAINT FK_FacturasEncabezado_Clientes FOREIGN KEY (IdCli) REFERENCES dbo.Clientes (IdCli)
+GO
+
+--
+-- Create foreign key [FK_FacturasEncabezado_Colaboradores] on table [dbo].[FacturasEncabezado]
+--
+PRINT (N'Create foreign key [FK_FacturasEncabezado_Colaboradores] on table [dbo].[FacturasEncabezado]')
+GO
+ALTER TABLE dbo.FacturasEncabezado
+  ADD CONSTRAINT FK_FacturasEncabezado_Colaboradores FOREIGN KEY (IdEmp) REFERENCES dbo.Colaboradores (IdEmp)
+GO
+
+--
+-- Create foreign key [FK_Bitacora_Usuarios] on table [dbo].[Bitacora]
+--
+PRINT (N'Create foreign key [FK_Bitacora_Usuarios] on table [dbo].[Bitacora]')
+GO
+ALTER TABLE dbo.Bitacora
+  ADD CONSTRAINT FK_Bitacora_Usuarios FOREIGN KEY (EmlUsu) REFERENCES dbo.Usuarios (EmlUsu)
+GO
+
+--
+-- Create foreign key [FK_Eventos_Lugares] on table [dbo].[Eventos]
+--
+PRINT (N'Create foreign key [FK_Eventos_Lugares] on table [dbo].[Eventos]')
+GO
+ALTER TABLE dbo.Eventos
+  ADD CONSTRAINT FK_Eventos_Lugares FOREIGN KEY (IdLug) REFERENCES dbo.Lugares (IdLug)
+GO
+
+--
+-- Create foreign key [FK_Eventos_TipoEventos] on table [dbo].[Eventos]
+--
+PRINT (N'Create foreign key [FK_Eventos_TipoEventos] on table [dbo].[Eventos]')
+GO
+ALTER TABLE dbo.Eventos
+  ADD CONSTRAINT FK_Eventos_TipoEventos FOREIGN KEY (IdEvn) REFERENCES dbo.TipoEventos (IdEvn)
+GO
+
+--
+-- Create foreign key [FK_Tickets_Clientes] on table [dbo].[Tickets]
+--
+PRINT (N'Create foreign key [FK_Tickets_Clientes] on table [dbo].[Tickets]')
+GO
+ALTER TABLE dbo.Tickets
+  ADD CONSTRAINT FK_Tickets_Clientes FOREIGN KEY (IdCli) REFERENCES dbo.Clientes (IdCli)
+GO
+
+--
+-- Create foreign key [FK_Tickets_Eventos] on table [dbo].[Tickets]
+--
+PRINT (N'Create foreign key [FK_Tickets_Eventos] on table [dbo].[Tickets]')
+GO
+ALTER TABLE dbo.Tickets
+  ADD CONSTRAINT FK_Tickets_Eventos FOREIGN KEY (IdEvt) REFERENCES dbo.Eventos (IdEvt)
+GO
+
+--
+-- Create foreign key [FK_Tickets_Ubicaciones] on table [dbo].[Tickets]
+--
+PRINT (N'Create foreign key [FK_Tickets_Ubicaciones] on table [dbo].[Tickets]')
+GO
+ALTER TABLE dbo.Tickets
+  ADD CONSTRAINT FK_Tickets_Ubicaciones FOREIGN KEY (IdUbc) REFERENCES dbo.Ubicaciones (IdUbc)
+GO
+
+--
+-- Create foreign key [FK_FacturasDetalle_FacturasEncabezado] on table [dbo].[FacturasDetalle]
+--
+PRINT (N'Create foreign key [FK_FacturasDetalle_FacturasEncabezado] on table [dbo].[FacturasDetalle]')
+GO
+ALTER TABLE dbo.FacturasDetalle
+  ADD CONSTRAINT FK_FacturasDetalle_FacturasEncabezado FOREIGN KEY (NroFact) REFERENCES dbo.FacturasEncabezado (NroFact)
+GO
+
+--
+-- Create foreign key [FK_FacturasDetalle_Tickets] on table [dbo].[FacturasDetalle]
+--
+PRINT (N'Create foreign key [FK_FacturasDetalle_Tickets] on table [dbo].[FacturasDetalle]')
+GO
+ALTER TABLE dbo.FacturasDetalle
+  ADD CONSTRAINT FK_FacturasDetalle_Tickets FOREIGN KEY (IdTct) REFERENCES dbo.Tickets (IdTct)
+GO
+SET NOEXEC OFF
 GO
